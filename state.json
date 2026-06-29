@@ -1,0 +1,11 @@
+{
+  "project": "Belden Homes Inc website rebuild",
+  "productionSafetyBoundary": "Do not modify live beldenhomesinc.com WordPress hosting without explicit approval. This repo is staging/preview only.",
+  "latestPreviewUrl": null,
+  "lastFeature": "First-pass static rebuild",
+  "lastChangedAt": "2026-06-29T02:54:58.264058Z",
+  "blockers": [
+    "Need Dave to verify service area, brands, inventory availability, hours, financing contacts, current photos, and production form destination."
+  ],
+  "nextRecommendedImprovement": "Have Dave review first pass, then replace manufacturer/floor-plan-only imagery with real lot/interior/exterior photos."
+}
