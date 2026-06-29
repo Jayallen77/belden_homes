@@ -2,10 +2,10 @@
   "project": "Belden Homes Inc website rebuild",
   "productionSafetyBoundary": "Do not modify live beldenhomesinc.com WordPress hosting without explicit approval. This repo is staging/preview only.",
   "latestPreviewUrl": "https://evoked-portal-b46w.here.now/",
-  "lastFeature": "First-pass static rebuild",
-  "lastChangedAt": "2026-06-29T02:54:58.264058Z",
+  "lastFeature": "Visual polish pass: transparent logo, tighter homepage copy, cleaner visualizers, refined buying-process cards",
+  "lastChangedAt": "2026-06-29T03:21:06Z",
   "blockers": [
     "Need Dave to verify service area, brands, inventory availability, hours, financing contacts, current photos, and production form destination."
   ],
-  "nextRecommendedImprovement": "Have Dave review first pass, then replace manufacturer/floor-plan-only imagery with real lot/interior/exterior photos."
+  "nextRecommendedImprovement": "Replace manufacturer/floor-plan-only imagery with real Belden lot, exterior, interior, setup, and team photos."
 }
