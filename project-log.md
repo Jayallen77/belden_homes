@@ -19,3 +19,8 @@
 - Updated the two design visualizer linkout cards to use photo previews beside the copy and Launch Visualizer buttons.
 - Kept only Interior and Exterior visualizers; Community visualizer remains excluded.
 - Added supplied interior/exterior preview assets to `assets/img/`.
+
+## 2026-06-29 — Visualizer card layout fix
+- Removed visualizer card pseudo-element overlays/watermark behavior.
+- Changed visualizer cards to a two-card desktop grid with text above and smaller fixed-height image previews below.
+- Reduced visualizer title size and balanced spacing/image height for desktop and mobile.
