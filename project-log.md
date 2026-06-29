@@ -34,3 +34,8 @@
 - Made desktop/tablet visualizer grid stretch both cards to equal height.
 - Set visualizer cards to height: 100% and flex columns.
 - Anchored fixed-aspect preview media areas to the bottom with margin-top:auto so bottoms align cleanly.
+
+## 2026-06-29 — Visualizer CTA row lock
+- Added a desktop/tablet-only fixed visualizer copy grid so both Launch Visualizer buttons stay on the same vertical row.
+- Kept the image row independent and bottom-aligned, so copy can differ without pushing one button lower.
+- Verified locally that both buttons and image top edges align.

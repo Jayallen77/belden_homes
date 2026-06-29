@@ -112,6 +112,29 @@
   transform:scale(1.025);
   filter:saturate(1.05);
 }
+@media(min-width:901px){
+  .visualizer-copy{
+    height:330px;
+    min-height:330px;
+    grid-template-rows:24px 132px 74px 48px;
+    row-gap:16px;
+  }
+  .visualizer-copy span,
+  .visualizer-copy h2,
+  .visualizer-copy p{
+    margin:0;
+  }
+  .visualizer-copy h2:after{
+    margin-top:18px;
+  }
+  .visualizer-copy .btn{
+    align-self:start;
+    justify-self:start;
+    min-height:48px;
+    display:inline-flex;
+    align-items:center;
+  }
+}
 @media(max-width:900px){
   .visualizer-linkouts{grid-template-columns:1fr;gap:22px}
   .visualizer-card.photo-card,
