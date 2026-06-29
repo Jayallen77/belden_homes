@@ -29,3 +29,8 @@
 - Used a grid-based top content group inside each visualizer card so eyebrow, title, description, and Launch Visualizer button align across both cards.
 - Kept preview images fixed-height at the bottom so image starts align horizontally.
 - Confirmed no card background image/watermark CSS remains.
+
+## 2026-06-29 — Visualizer equal-height card fix
+- Made desktop/tablet visualizer grid stretch both cards to equal height.
+- Set visualizer cards to height: 100% and flex columns.
+- Anchored fixed-aspect preview media areas to the bottom with margin-top:auto so bottoms align cleanly.
