@@ -1,7 +1,7 @@
 {
   "project": "Belden Homes Inc website rebuild",
   "productionSafetyBoundary": "Do not modify live beldenhomesinc.com WordPress hosting without explicit approval. This repo is staging/preview only.",
-  "latestPreviewUrl": null,
+  "latestPreviewUrl": "https://evoked-portal-b46w.here.now/",
   "lastFeature": "First-pass static rebuild",
   "lastChangedAt": "2026-06-29T02:54:58.264058Z",
   "blockers": [
