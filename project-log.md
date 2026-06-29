@@ -14,3 +14,8 @@
 - Removed visualizer card logo watermark backgrounds.
 - Refined buying-process cards into a balanced 3-over-2 desktop layout with smaller badges and shorter copy.
 - Re-checked homepage, visualizer page, and buying-process page visually; browser console clean.
+
+## 2026-06-29 — Visualizer card photo update
+- Updated the two design visualizer linkout cards to use photo previews beside the copy and Launch Visualizer buttons.
+- Kept only Interior and Exterior visualizers; Community visualizer remains excluded.
+- Added supplied interior/exterior preview assets to `assets/img/`.

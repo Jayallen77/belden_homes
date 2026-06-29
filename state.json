@@ -2,8 +2,8 @@
   "project": "Belden Homes Inc website rebuild",
   "productionSafetyBoundary": "Do not modify live beldenhomesinc.com WordPress hosting without explicit approval. This repo is staging/preview only.",
   "latestPreviewUrl": "https://evoked-portal-b46w.here.now/",
-  "lastFeature": "Visual polish pass: transparent logo, tighter homepage copy, cleaner visualizers, refined buying-process cards",
-  "lastChangedAt": "2026-06-29T03:21:06Z",
+  "lastFeature": "Updated Interior and Exterior visualizer cards with photo previews and Launch Visualizer buttons",
+  "lastChangedAt": "2026-06-29T03:28:26Z",
   "blockers": [
     "Need Dave to verify service area, brands, inventory availability, hours, financing contacts, current photos, and production form destination."
   ],
