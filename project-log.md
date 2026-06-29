@@ -24,3 +24,8 @@
 - Removed visualizer card pseudo-element overlays/watermark behavior.
 - Changed visualizer cards to a two-card desktop grid with text above and smaller fixed-height image previews below.
 - Reduced visualizer title size and balanced spacing/image height for desktop and mobile.
+
+## 2026-06-29 — Visualizer button alignment fix
+- Used a grid-based top content group inside each visualizer card so eyebrow, title, description, and Launch Visualizer button align across both cards.
+- Kept preview images fixed-height at the bottom so image starts align horizontally.
+- Confirmed no card background image/watermark CSS remains.

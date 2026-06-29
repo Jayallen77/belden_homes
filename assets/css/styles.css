@@ -32,14 +32,16 @@
   content:none!important;
   display:none!important;
   background:none!important;
+  border:0!important;
 }
 .visualizer-copy{
   position:relative;
   z-index:1;
-  display:flex;
-  flex-direction:column;
-  align-items:flex-start;
+  display:grid;
+  grid-template-rows:auto minmax(132px,auto) auto minmax(72px,auto) auto;
+  align-items:start;
   padding:0;
+  flex:0 0 auto;
 }
 .visualizer-copy span{
   color:var(--gold);
@@ -47,14 +49,14 @@
   text-transform:uppercase;
   letter-spacing:.13em;
   font-size:12px;
-  margin-bottom:14px;
+  margin:0 0 14px;
 }
 .visualizer-copy h2{
   color:white;
-  font-size:clamp(25px,2.55vw,36px);
+  font-size:clamp(24px,2.25vw,33px);
   line-height:1.12;
   max-width:480px;
-  margin:0 0 16px;
+  margin:0;
 }
 .visualizer-copy h2:after{
   content:'';
@@ -73,21 +75,22 @@
   margin:0 0 22px;
 }
 .visualizer-copy .btn{
+  align-self:start;
   position:relative;
   z-index:2;
   text-transform:uppercase;
   letter-spacing:.06em;
   font-size:13px;
   padding:13px 20px;
-  margin-bottom:6px;
+  margin:0;
 }
 .visualizer-photo{
   position:relative;
   z-index:1;
   display:block;
   width:100%;
-  height:300px;
-  flex:0 0 300px;
+  height:290px;
+  flex:0 0 290px;
   border-radius:18px;
   overflow:hidden;
   border:1px solid rgba(255,255,255,.18);
@@ -108,6 +111,8 @@
   .visualizer-linkouts{grid-template-columns:1fr;gap:22px}
   .visualizer-card.photo-card,
   .visualizer-card.photo-card.exterior{min-height:auto;padding:24px;gap:22px}
-  .visualizer-copy h2{font-size:28px}
+  .visualizer-copy{display:flex;flex-direction:column;align-items:flex-start}
+  .visualizer-copy h2{font-size:28px;margin:0 0 16px}
+  .visualizer-copy p{margin-bottom:22px}
   .visualizer-photo{height:220px;flex-basis:220px;border-radius:16px}
 }
