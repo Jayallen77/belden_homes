@@ -1,9 +1,9 @@
 {
   "project": "Belden Homes Inc website rebuild",
   "productionSafetyBoundary": "Do not modify live beldenhomesinc.com WordPress hosting without explicit approval. This repo is staging/preview only.",
-  "latestPreviewUrl": "https://bitter-badge-adnk.here.now/",
-  "lastFeature": "Locked desktop visualizer CTA rows so both Launch Visualizer buttons stay aligned above the images",
-  "lastChangedAt": "2026-06-29T03:51:00Z",
+  "latestPreviewUrl": "https://pure-sandal-nykk.here.now/",
+  "lastFeature": "Republished latest Belden Homes preview to here.now",
+  "lastChangedAt": "2026-07-01T23:21:51Z",
   "blockers": [
     "Need Dave to verify service area, brands, inventory availability, hours, financing contacts, current photos, and production form destination."
   ],
