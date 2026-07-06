@@ -1,9 +1,9 @@
 {
   "project": "Belden Homes Inc website rebuild",
   "productionSafetyBoundary": "Do not modify live beldenhomesinc.com WordPress hosting without explicit approval. This repo is staging/preview only.",
-  "latestPreviewUrl": "https://pure-sandal-nykk.here.now/",
+  "latestPreviewUrl": "https://bold-oasis-j2jb.here.now/",
   "lastFeature": "Republished latest Belden Homes preview to here.now",
-  "lastChangedAt": "2026-07-01T23:21:51Z",
+  "lastChangedAt": "2026-07-06T21:10:29Z",
   "blockers": [
     "Need Dave to verify service area, brands, inventory availability, hours, financing contacts, current photos, and production form destination."
   ],
