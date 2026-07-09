@@ -1,11 +1,17 @@
 {
-  "project": "Belden Homes Inc website rebuild",
+  "project": "Belden Homes site preview",
   "productionSafetyBoundary": "Do not modify live beldenhomesinc.com WordPress hosting without explicit approval. This repo is staging/preview only.",
   "latestPreviewUrl": "https://bold-oasis-j2jb.here.now/",
-  "lastFeature": "Republished latest Belden Homes preview to here.now",
-  "lastChangedAt": "2026-07-06T21:10:29Z",
-  "blockers": [
-    "Need Dave to verify service area, brands, inventory availability, hours, financing contacts, current photos, and production form destination."
-  ],
-  "nextRecommendedImprovement": "Replace manufacturer/floor-plan-only imagery with real Belden lot, exterior, interior, setup, and team photos."
+  "lastFeature": "Updated inventory to the 6 confirmed Belden models with Cavco-scraped data",
+  "lastChangedAt": "2026-07-09T20:47:22.842309+00:00",
+  "blockers": [],
+  "nextRecommendedImprovement": "Have Belden verify pricing/status/photos before production deployment.",
+  "confirmedModelIds": [
+    "62412",
+    "62472",
+    "15440",
+    "62330",
+    "16040",
+    "16202"
+  ]
 }
