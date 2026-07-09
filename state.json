@@ -3,7 +3,7 @@
   "productionSafetyBoundary": "Do not modify live beldenhomesinc.com WordPress hosting without explicit approval. This repo is staging/preview only.",
   "latestPreviewUrl": "https://bold-oasis-j2jb.here.now/",
   "lastFeature": "Updated inventory to the 6 confirmed Belden models with Cavco-scraped data",
-  "lastChangedAt": "2026-07-09T20:47:22.842309+00:00",
+  "lastChangedAt": "2026-07-09T20:52:04.542567+00:00",
   "blockers": [],
   "nextRecommendedImprovement": "Have Belden verify pricing/status/photos before production deployment.",
   "confirmedModelIds": [

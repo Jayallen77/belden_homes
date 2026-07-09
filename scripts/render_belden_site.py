@@ -101,10 +101,9 @@ def detail_page(model):
     gallery = ""
     if photos:
         cards = []
-        for i, photo in enumerate(photos[:12], 1):
+        for i, photo in enumerate(photos, 1):
             cards.append(f'''<a class="gallery-card" href="{h(photo['url'])}" target="_blank" rel="noopener"><img src="{h(photo['url'])}" alt="{h(photo.get('alt') or model['displayName'])}"><span>Photo {i}</span></a>''')
-        more = f"<p class=\"muted\">Showing 12 of {len(photos)} available Cavco photos. Use the Cavco source link for the full gallery.</p>" if len(photos) > 12 else ""
-        gallery = f'''<section class="section"><div class="section-head"><span class="eyebrow">Cavco photos</span><h2>Available listing photos</h2></div><div class="model-gallery">{''.join(cards)}</div>{more}</section>'''
+        gallery = f'''<section class="section"><div class="section-head"><span class="eyebrow">Cavco photos</span><h2>Available listing photos</h2><p>{len(photos)} Cavco listing photos found for this model.</p></div><div class="model-gallery">{''.join(cards)}</div></section>'''
     else:
         gallery = '<section class="section"><div class="note-card"><span class="eyebrow">Cavco photos</span><h2>No extra listing photos posted yet.</h2><p>Cavco currently provides the floor plan drawing for this model. Call Belden for real-time lot status, colors, options, and viewing availability.</p></div></section>'
 
