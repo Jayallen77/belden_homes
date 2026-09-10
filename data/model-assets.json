@@ -1,0 +1,10 @@
+{
+  "greater-ops": {"exterior":"IMG_5225.HEIC","floorplan":"assets/MODEL PHOTOS/Greater Ops/Floor Plans/Greater_ops_FP.jpg","note":"This supplied reference drawing lists 880 sq. ft. The listed home is 907 sq. ft.; please confirm the current layout with Belden."},
+  "shifty": {"exterior":"IMG_5203.HEIC","floorplan":"assets/MODEL PHOTOS/Shifty/Floor Plans/ac28603h_1760119856363_1142_12.jpg","note":"Please confirm this reference layout with Belden for model 28600E."},
+  "super-bee": {"exterior":"IMG_5237.HEIC","floorplan":"assets/MODEL PHOTOS/Super Bee/Floor Plans/bz28523f_1770136532991_625_10.jpg"},
+  "ramsey": {"exterior":"IMG_5238.HEIC","floorplan":"assets/MODEL PHOTOS/Ramsey/Floor Plans/scan-page-02.pdf","note":"This supplied reference drawing lists 1,600 sq. ft. The listed home is 1,813 sq. ft.; please confirm the current layout with Belden."},
+  "bungalow": {"exterior":"IMG_5194.HEIC","floorplan":"assets/MODEL PHOTOS/Bungalow/Floor Plans/ac24482a_1760118300424_1142_12.jpg"},
+  "camp": {"floorplan":"assets/MODEL PHOTOS/Camp/Floor Plans/bz14602b_1763419921511_1400_12.jpg"},
+  "hogancamp": {"exterior":"IMG_5214.HEIC","floorplan":"assets/MODEL PHOTOS/Hogancamp/Floor Plans/scan-page-03.pdf","note":"This supplied reference drawing lists 1,484 sq. ft. The listed home is 1,387 sq. ft.; please confirm the current layout with Belden."},
+  "office": {"exterior":"IMG_5236.HEIC","floorplan":"assets/MODEL PHOTOS/Office/Floor Plans/ac28443a_1760118387698_1142_12.jpg"}
+}

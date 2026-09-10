@@ -1,0 +1,9 @@
+beldenhomesinc.com {
+    redir https://www.beldenhomesinc.com{uri} permanent
+}
+www.beldenhomesinc.com {
+    encode zstd gzip
+    reverse_proxy 127.0.0.1:3000 {
+        header_up X-Real-IP {remote_host}
+    }
+}

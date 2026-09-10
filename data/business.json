@@ -1,0 +1,12 @@
+{
+  "name": "Belden Homes Inc.",
+  "url": "https://www.beldenhomesinc.com",
+  "phone": "607-693-1364",
+  "email": "inquiries@beldenhomesinc.com",
+  "hours": [
+    {"label": "Monday–Thursday", "text": "9:00 AM–4:00 PM", "days": ["Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "09:00", "closes": "16:00"},
+    {"label": "Friday", "text": "10:00 AM–3:00 PM", "days": ["Friday"], "opens": "10:00", "closes": "15:00"},
+    {"label": "Saturday", "text": "9:00 AM–1:00 PM", "days": ["Saturday"], "opens": "09:00", "closes": "13:00"}
+  ],
+  "counties": {"NY": ["Broome", "Chenango", "Cortland", "Delaware", "Otsego", "Tioga"], "PA": ["Susquehanna", "Wayne"]}
+}

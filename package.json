@@ -4,6 +4,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build-static.mjs"
+    "build": "node scripts/render-site.mjs && node scripts/build-static.mjs",
+    "start": "node server/index.mjs",
+    "test": "node --test tests/*.test.mjs && node scripts/check-site.mjs",
+    "verify:smtp": "node server/verify-smtp.mjs"
+  },
+  "engines": {"node": ">=22"},
+  "dependencies": {
+    "nodemailer": "^10.0.1"
   }
 }

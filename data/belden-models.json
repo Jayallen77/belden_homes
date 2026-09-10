@@ -1,374 +1,507 @@
 [
   {
-    "beldenId": "62412",
-    "slug": "belden-62412-elite-10-28603h",
-    "sourceSlug": "599-elite-10-28603h",
-    "sourceUrl": "https://www.cavcohomes.com/building-center/clarion/floorplans/599-elite-10-28603h?series=%5B%22Astro+Creations%22%5D",
-    "displayName": "Elite 10 28603H",
-    "modelName": "Elite 10",
-    "modelNumber": "28603H",
-    "series": "Astro Creations",
+    "name": "Greater Ops",
+    "slug": "greater-ops",
+    "modelNumber": "14682A",
+    "squareFootage": 907,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "type": "Manufactured Single Section",
+    "viewing": "onsite",
+    "floorplan": "assets/models/greater-ops/floorplan.webp",
+    "floorplanWidth": 1584,
+    "floorplanHeight": 1224,
+    "floorplanNote": "This supplied reference drawing lists 880 sq. ft. The listed home is 907 sq. ft.; please confirm the current layout with Belden.",
+    "photos": [
+      {
+        "src": "assets/models/greater-ops/img_5225.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Greater Ops exterior at Belden Homes"
+      },
+      {
+        "src": "assets/models/greater-ops/img_5226.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Greater Ops display home interior, photo 2"
+      },
+      {
+        "src": "assets/models/greater-ops/img_5227.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Greater Ops display home interior, photo 3"
+      },
+      {
+        "src": "assets/models/greater-ops/img_5228.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Greater Ops display home interior, photo 4"
+      },
+      {
+        "src": "assets/models/greater-ops/img_5229.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Greater Ops display home interior, photo 5"
+      },
+      {
+        "src": "assets/models/greater-ops/img_5230.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Greater Ops display home interior, photo 6"
+      },
+      {
+        "src": "assets/models/greater-ops/img_5231.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Greater Ops display home interior, photo 7"
+      },
+      {
+        "src": "assets/models/greater-ops/img_5232.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Greater Ops display home interior, photo 8"
+      },
+      {
+        "src": "assets/models/greater-ops/img_5233.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Greater Ops display home interior, photo 9"
+      }
+    ]
+  },
+  {
+    "name": "Shifty",
+    "slug": "shifty",
+    "modelNumber": "28600E",
     "squareFootage": 1600,
-    "sections": "Double-wide",
-    "numBedrooms": 3,
-    "numBathrooms": 2.0,
-    "buildingMethod": "Modular or Manufactured",
-    "homeType": "Double Wide Modular or Manufactured Home",
-    "description": "",
-    "sellingFeatures": [],
-    "sizeExact": "26'-8\" x 60'",
-    "cardSize": "27 x 60",
-    "widthFeet": "26",
-    "widthInches": "8",
-    "lengthFeet": "60",
-    "lengthInches": "0",
-    "assetId": "E2D64AF7B00A4A79935A100F31F7CB8F",
-    "seriesAssetId": "07A1D132FC5149D69D4EB9ED61029814",
-    "lineDrawingUrl": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/E2D64AF7B00A4A79935A100F31F7CB8F/ac28603h_1760119856363.jpg",
-    "lineDrawingAlt": "Elite 10 28603H | 3 bedroom, 2 bathroom, 1600 sqft home. Built by Cavco - Clarion in Shippenville, PA. ",
-    "localImage": "assets/img/belden-62412-elite-10-28603h.jpg",
-    "photos": [],
-    "rawLastModificationDate": 1763391671587
-  },
-  {
-    "beldenId": "62472",
-    "slug": "belden-62472-mu-cephei-28683a",
-    "sourceSlug": "599-mu-cephei-28683a",
-    "sourceUrl": "https://www.cavcohomes.com/building-center/clarion/floorplans/599-mu-cephei-28683a?series=%5B%22Astro+Creations%22%5D",
-    "displayName": "Mu Cephei 28683A",
-    "modelName": "Mu Cephei",
-    "modelNumber": "28683A",
-    "series": "Astro Creations",
-    "squareFootage": 1813,
-    "sections": "Double-wide",
-    "numBedrooms": 3,
-    "numBathrooms": 2.0,
-    "buildingMethod": "Modular or Manufactured",
-    "homeType": "Double Wide Modular or Manufactured Home",
-    "description": "",
-    "sellingFeatures": [],
-    "sizeExact": "26'-8\" x 68'",
-    "cardSize": "27 x 68",
-    "widthFeet": "26",
-    "widthInches": "8",
-    "lengthFeet": "68",
-    "lengthInches": "0",
-    "assetId": "C27D4D7E521C47939011EF9CC43579AE",
-    "seriesAssetId": "07A1D132FC5149D69D4EB9ED61029814",
-    "lineDrawingUrl": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/ac28683a_1760120195327.jpg",
-    "lineDrawingAlt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA.",
-    "localImage": "assets/img/belden-62472-mu-cephei-28683a.jpg",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "type": "Manufactured Double Section",
+    "viewing": "onsite",
+    "floorplan": "assets/models/shifty/floorplan.webp",
+    "floorplanWidth": 1141,
+    "floorplanHeight": 882,
+    "floorplanNote": "Please confirm this reference layout with Belden for model 28600E.",
     "photos": [
       {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5048_copy_1761268062459.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
+        "src": "assets/models/shifty/img_5203.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Shifty exterior at Belden Homes"
       },
       {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5052_copy_1761268055473.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
+        "src": "assets/models/shifty/img_5204.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Shifty display home interior, photo 2"
       },
       {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5070_copy_1761268037246.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
+        "src": "assets/models/shifty/img_5205.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Shifty display home interior, photo 3"
       },
       {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5072_copy_1761268031824.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
+        "src": "assets/models/shifty/img_5206.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Shifty display home interior, photo 4"
       },
       {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5074_copy_1761268025284.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
+        "src": "assets/models/shifty/img_5207.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Shifty display home interior, photo 5"
       },
       {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5076_copy_1761268019337.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
+        "src": "assets/models/shifty/img_5208.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Shifty display home interior, photo 6"
       },
       {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5081_copy_1761268014246.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
+        "src": "assets/models/shifty/img_5209.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Shifty display home interior, photo 7"
       },
       {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5083_copy_1761268006859.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
+        "src": "assets/models/shifty/img_5210.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Shifty display home interior, photo 8"
       },
       {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5085_copy_1761268000598.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
+        "src": "assets/models/shifty/img_5211.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Shifty display home interior, photo 9"
       },
       {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5067_copy_1761268043315.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
+        "src": "assets/models/shifty/img_5212.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Shifty display home interior, photo 10"
       },
       {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5087_copy_1761267993941.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5091_copy_1761267989235.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5057_copy_1761268049185.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5101_copy_1761267976060.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5104_copy_1761267972085.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5106_copy_1761267968175.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5096_copy_1761267984358.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C27D4D7E521C47939011EF9CC43579AE/img_5099_copy_1761267979829.jpg",
-        "alt": "Mu Cephei 28683A| 3 bedroom, 2 bathroom, 1813 sqft home. Built by Cavco - Clarion in Shippenville, PA."
+        "src": "assets/models/shifty/img_5213.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Shifty display home interior, photo 11"
       }
-    ],
-    "rawLastModificationDate": 1761772245552
+    ]
   },
   {
-    "beldenId": "15440",
-    "slug": "belden-15440-bungalow-12-24482a",
-    "sourceSlug": "599-bungalow-12-24482a",
-    "sourceUrl": "https://www.cavcohomes.com/building-center/clarion/floorplans/599-bungalow-12-24482a?series=%5B%22Astro+Creations%22%5D",
-    "displayName": "Bungalow 12 24482A",
-    "modelName": "Bungalow 12",
-    "modelNumber": "24482A",
-    "series": "Astro Creations",
-    "squareFootage": 1022,
-    "sections": "Double-wide",
-    "numBedrooms": 2,
-    "numBathrooms": 2.0,
-    "buildingMethod": "Modular or Manufactured",
-    "homeType": "Double Wide Modular or Manufactured Home",
-    "description": "",
-    "sellingFeatures": [],
-    "sizeExact": "22'-8\" x 48'",
-    "cardSize": "23 x 48",
-    "widthFeet": "22",
-    "widthInches": "8",
-    "lengthFeet": "48",
-    "lengthInches": "0",
-    "assetId": "C61E242E7C8849A4B6F14B385946F8F3",
-    "seriesAssetId": "07A1D132FC5149D69D4EB9ED61029814",
-    "lineDrawingUrl": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/ac24482a_1760118300424.jpg",
-    "lineDrawingAlt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA.",
-    "localImage": "assets/img/belden-15440-bungalow-12-24482a.jpg",
-    "photos": [
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_livingroom_002_1761255634568.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_livingroom_001_1761255637641.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_livingroom_005_1761255628306.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_livingroom_003_1761255632094.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_kitchen_007_1761255659325.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_kitchen_002_1761255485703.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_kitchen_003_1761255482196.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_kitchen_008_1761255650901.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_kitchen_009_1761255645495.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_kitchen_006_1761255473933.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_kitchen_010_1761255642120.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_kitchen_005_1761255475718.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_kitchen_001_1761255490899.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_bed_004_1761255529602.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_kitchen_004_1761255478319.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_bed_005_1761255522865.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_bed_006_1761255517237.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_bath_002_1761255581591.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_bath_003_1761255572412.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_bath_014_1761255551147.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_bed_003_1761255537037.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_bed_002_1761255543045.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_bed_007_1761255511701.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_bath_001_1761255585628.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_bath_004_1761255564712.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_bath_005_1761255557884.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_exterior_009_1761255499355.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      },
-      {
-        "url": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/C61E242E7C8849A4B6F14B385946F8F3/25_c_560_ac24482a_exterior_001_1761255506511.jpg",
-        "alt": "Bungalow 12 24482A | 2 bedroom, 2 bathroom, 1022 sqft home. Built by Cavco - Clarion in Shippenville, PA."
-      }
-    ],
-    "rawLastModificationDate": 1763151373210
-  },
-  {
-    "beldenId": "62330",
-    "slug": "belden-62330-mustang-14602b",
-    "sourceSlug": "599-mustang-14602b",
-    "sourceUrl": "https://www.cavcohomes.com/building-center/clarion/floorplans/599-mustang-14602b?series=%5B%22Blazer+Select%22%5D&page=4",
-    "displayName": "Mustang 14602B",
-    "modelName": "Mustang",
-    "modelNumber": "14602B",
-    "series": "Blazer Select",
-    "squareFootage": 800,
-    "sections": "Single-wide",
-    "numBedrooms": 2,
-    "numBathrooms": 1.0,
-    "buildingMethod": "Manufactured",
-    "homeType": "Single Wide Manufactured Home",
-    "description": "",
-    "sellingFeatures": [],
-    "sizeExact": "13'-4\" x 60'",
-    "cardSize": "13 x 60",
-    "widthFeet": "13",
-    "widthInches": "4",
-    "lengthFeet": "60",
-    "lengthInches": "0",
-    "assetId": "5E39D124580C448F84F7C4DA9E01EF59",
-    "seriesAssetId": "6BA829881FAC4B72B7E76378D22CF9ED",
-    "lineDrawingUrl": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/5E39D124580C448F84F7C4DA9E01EF59/bz14602b_1763419921511.jpg",
-    "lineDrawingAlt": "Mustang 14602B | 2 bedroom, 1 bathroom, 800 sqft home. Built by Cavco - Clarion in Shippenville, PA.",
-    "localImage": "assets/img/belden-62330-mustang-14602b.jpg",
-    "photos": [],
-    "rawLastModificationDate": 1763420736495
-  },
-  {
-    "beldenId": "16040",
-    "slug": "belden-16040-charger-28523b",
-    "sourceSlug": "599-charger-28523b",
-    "sourceUrl": "https://www.cavcohomes.com/building-center/clarion/floorplans/599-charger-28523b?series=%5B%22Blazer+Select%22%5D",
-    "displayName": "Charger 28523B",
-    "modelName": "Charger",
-    "modelNumber": "28523B",
-    "series": "Blazer Select",
-    "squareFootage": 1387,
-    "sections": "Double-wide",
-    "numBedrooms": 3,
-    "numBathrooms": 2.0,
-    "buildingMethod": "Modular or Manufactured",
-    "homeType": "Double Wide Modular or Manufactured Home",
-    "description": "",
-    "sellingFeatures": [],
-    "sizeExact": "26'-8\" x 52'",
-    "cardSize": "27 x 52",
-    "widthFeet": "26",
-    "widthInches": "8",
-    "lengthFeet": "52",
-    "lengthInches": "0",
-    "assetId": "ED85BC0ADED64056BF1B590E47911914",
-    "seriesAssetId": "6BA829881FAC4B72B7E76378D22CF9ED",
-    "lineDrawingUrl": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/ED85BC0ADED64056BF1B590E47911914/bz28523b_1760125085324.jpg",
-    "lineDrawingAlt": "Charger 28523B | 3 bedroom, 2 bathroom, 1387 sqft home. Built by Cavco - Clarion in Shippenville, PA.",
-    "localImage": "assets/img/belden-16040-charger-28523b.jpg",
-    "photos": [],
-    "rawLastModificationDate": 1761339396683
-  },
-  {
-    "beldenId": "16202",
-    "slug": "belden-16202-super-bee-28523f",
-    "sourceSlug": "599-super-bee-28523f",
-    "sourceUrl": "https://www.cavcohomes.com/building-center/clarion/floorplans/599-super-bee-28523f?series=%5B%22Blazer+Select%22%5D&page=2",
-    "displayName": "Super Bee 28523F",
-    "modelName": "Super Bee",
+    "name": "Super Bee",
+    "slug": "super-bee",
     "modelNumber": "28523F",
-    "series": "Blazer Select",
     "squareFootage": 1387,
-    "sections": "Double-wide",
-    "numBedrooms": 3,
-    "numBathrooms": 2.0,
-    "buildingMethod": "Manufactured",
-    "homeType": "Double Wide Modular or Manufactured Home",
-    "description": "",
-    "sellingFeatures": [],
-    "sizeExact": "26'-8\" x 52'",
-    "cardSize": "27 x 52",
-    "widthFeet": "26",
-    "widthInches": "8",
-    "lengthFeet": "52",
-    "lengthInches": "0",
-    "assetId": "B9732D7A4BC14F6981981B65B768EE76",
-    "seriesAssetId": "6BA829881FAC4B72B7E76378D22CF9ED",
-    "lineDrawingUrl": "https://cdn2.cavco.com/public/phhweb/gallery/userupload/B9732D7A4BC14F6981981B65B768EE76/bz28523f_1770136532991.jpg",
-    "lineDrawingAlt": "Super Bee 28523F | 3 bedroom, 2 bathroom, 1387 sqft home. Built by Cavco - Clarion in Shippenville, PA.",
-    "localImage": "assets/img/belden-16202-super-bee-28523f.jpg",
-    "photos": [],
-    "rawLastModificationDate": 1770137096062
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "type": "Manufactured Double Section",
+    "viewing": "onsite",
+    "floorplan": "assets/models/super-bee/floorplan.webp",
+    "floorplanWidth": 625,
+    "floorplanHeight": 483,
+    "floorplanNote": "",
+    "photos": [
+      {
+        "src": "assets/models/super-bee/img_5237.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Super Bee exterior at Belden Homes"
+      },
+      {
+        "src": "assets/models/super-bee/img_5174.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Super Bee display home interior, photo 2"
+      },
+      {
+        "src": "assets/models/super-bee/img_5175.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Super Bee display home interior, photo 3"
+      },
+      {
+        "src": "assets/models/super-bee/img_5176.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Super Bee display home interior, photo 4"
+      },
+      {
+        "src": "assets/models/super-bee/img_5177.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Super Bee display home interior, photo 5"
+      },
+      {
+        "src": "assets/models/super-bee/img_5178.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Super Bee display home interior, photo 6"
+      },
+      {
+        "src": "assets/models/super-bee/img_5179.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Super Bee display home interior, photo 7"
+      },
+      {
+        "src": "assets/models/super-bee/img_5180.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Super Bee display home interior, photo 8"
+      },
+      {
+        "src": "assets/models/super-bee/img_5181.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Super Bee display home interior, photo 9"
+      },
+      {
+        "src": "assets/models/super-bee/img_5182.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Super Bee display home interior, photo 10"
+      },
+      {
+        "src": "assets/models/super-bee/img_5183.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Super Bee display home interior, photo 11"
+      }
+    ]
+  },
+  {
+    "name": "Ramsey",
+    "slug": "ramsey",
+    "modelNumber": "28683A",
+    "squareFootage": 1813,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "type": "Manufactured Double Section",
+    "viewing": "onsite",
+    "floorplan": "assets/models/ramsey/floorplan.webp",
+    "floorplanWidth": 2400,
+    "floorplanHeight": 1855,
+    "floorplanNote": "This supplied reference drawing lists 1,600 sq. ft. The listed home is 1,813 sq. ft.; please confirm the current layout with Belden.",
+    "photos": [
+      {
+        "src": "assets/models/ramsey/img_5238.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Ramsey exterior at Belden Homes"
+      },
+      {
+        "src": "assets/models/ramsey/img_5184.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Ramsey display home interior, photo 2"
+      },
+      {
+        "src": "assets/models/ramsey/img_5185.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Ramsey display home interior, photo 3"
+      },
+      {
+        "src": "assets/models/ramsey/img_5186.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Ramsey display home interior, photo 4"
+      },
+      {
+        "src": "assets/models/ramsey/img_5187.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Ramsey display home interior, photo 5"
+      },
+      {
+        "src": "assets/models/ramsey/img_5188.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Ramsey display home interior, photo 6"
+      },
+      {
+        "src": "assets/models/ramsey/img_5189.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Ramsey display home interior, photo 7"
+      },
+      {
+        "src": "assets/models/ramsey/img_5190.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Ramsey display home interior, photo 8"
+      },
+      {
+        "src": "assets/models/ramsey/img_5191.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Ramsey display home interior, photo 9"
+      },
+      {
+        "src": "assets/models/ramsey/img_5192.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Ramsey display home interior, photo 10"
+      },
+      {
+        "src": "assets/models/ramsey/img_5193.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Ramsey display home interior, photo 11"
+      }
+    ]
+  },
+  {
+    "name": "Bungalow",
+    "slug": "bungalow",
+    "modelNumber": "24482A",
+    "squareFootage": 1022,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "type": "Manufactured Double Section",
+    "viewing": "onsite",
+    "floorplan": "assets/models/bungalow/floorplan.webp",
+    "floorplanWidth": 1141,
+    "floorplanHeight": 882,
+    "floorplanNote": "",
+    "photos": [
+      {
+        "src": "assets/models/bungalow/img_5194.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Bungalow exterior at Belden Homes"
+      },
+      {
+        "src": "assets/models/bungalow/img_5195.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Bungalow display home interior, photo 2"
+      },
+      {
+        "src": "assets/models/bungalow/img_5196.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Bungalow display home interior, photo 3"
+      },
+      {
+        "src": "assets/models/bungalow/img_5197.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Bungalow display home interior, photo 4"
+      },
+      {
+        "src": "assets/models/bungalow/img_5198.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Bungalow display home interior, photo 5"
+      },
+      {
+        "src": "assets/models/bungalow/img_5199.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Bungalow display home interior, photo 6"
+      },
+      {
+        "src": "assets/models/bungalow/img_5200.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Bungalow display home interior, photo 7"
+      },
+      {
+        "src": "assets/models/bungalow/img_5201.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Bungalow display home interior, photo 8"
+      },
+      {
+        "src": "assets/models/bungalow/img_5202.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Bungalow display home interior, photo 9"
+      }
+    ]
+  },
+  {
+    "name": "Camp",
+    "slug": "camp",
+    "modelNumber": "14602B",
+    "squareFootage": 800,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "type": "Manufactured Single Section",
+    "viewing": "offsite",
+    "floorplan": "assets/models/camp/floorplan.webp",
+    "floorplanWidth": 1399,
+    "floorplanHeight": 787,
+    "floorplanNote": "",
+    "photos": []
+  },
+  {
+    "name": "Hogancamp",
+    "slug": "hogancamp",
+    "modelNumber": "28523B",
+    "squareFootage": 1387,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "type": "Manufactured Double Section",
+    "viewing": "onsite",
+    "floorplan": "assets/models/hogancamp/floorplan.webp",
+    "floorplanWidth": 2400,
+    "floorplanHeight": 1855,
+    "floorplanNote": "This supplied reference drawing lists 1,484 sq. ft. The listed home is 1,387 sq. ft.; please confirm the current layout with Belden.",
+    "photos": [
+      {
+        "src": "assets/models/hogancamp/img_5214.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Hogancamp exterior at Belden Homes"
+      },
+      {
+        "src": "assets/models/hogancamp/img_5215.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Hogancamp display home interior, photo 2"
+      },
+      {
+        "src": "assets/models/hogancamp/img_5216.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Hogancamp display home interior, photo 3"
+      },
+      {
+        "src": "assets/models/hogancamp/img_5217.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Hogancamp display home interior, photo 4"
+      },
+      {
+        "src": "assets/models/hogancamp/img_5218.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Hogancamp display home interior, photo 5"
+      },
+      {
+        "src": "assets/models/hogancamp/img_5219.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Hogancamp display home interior, photo 6"
+      },
+      {
+        "src": "assets/models/hogancamp/img_5220.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Hogancamp display home interior, photo 7"
+      },
+      {
+        "src": "assets/models/hogancamp/img_5221.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Hogancamp display home interior, photo 8"
+      },
+      {
+        "src": "assets/models/hogancamp/img_5222.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Hogancamp display home interior, photo 9"
+      },
+      {
+        "src": "assets/models/hogancamp/img_5223.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Hogancamp display home interior, photo 10"
+      },
+      {
+        "src": "assets/models/hogancamp/img_5224.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Hogancamp display home interior, photo 11"
+      }
+    ]
+  },
+  {
+    "name": "Office",
+    "slug": "office",
+    "modelNumber": "28443A",
+    "squareFootage": 1173,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "type": "Manufactured Double Section",
+    "viewing": "onsite",
+    "floorplan": "assets/models/office/floorplan.webp",
+    "floorplanWidth": 1141,
+    "floorplanHeight": 882,
+    "floorplanNote": "",
+    "photos": [
+      {
+        "src": "assets/models/office/img_5236.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Office exterior at Belden Homes"
+      }
+    ]
   }
 ]

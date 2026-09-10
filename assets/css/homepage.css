@@ -1,0 +1,204 @@
+/* Warm, practical materials and real Belden photography. Homepage only. */
+.homepage {
+  --home-paper: #f6f1e7;
+  --home-beige: #eae2d3;
+  --home-sage: #dce2d8;
+  --home-green: #41574d;
+  --home-border: #c9c7b6;
+  background: var(--home-paper);
+}
+.home-hero {
+  position: relative;
+  isolation: isolate;
+  background: var(--home-beige);
+  border-bottom: 1px solid var(--home-border);
+}
+.home-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 0 62%;
+  z-index: -1;
+  background: #cdd7ca;
+  border-left: 1px solid #b8c4b6;
+}
+.home-hero-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.05fr;
+  gap: 64px;
+  align-items: center;
+  padding-block: 58px 62px;
+}
+.welcome-copy h1 {
+  font-size: clamp(2.25rem, 3.5vw, 3.15rem);
+  line-height: 1.12;
+  max-width: 560px;
+  margin-bottom: 25px;
+}
+.welcome-copy h1 span {
+  display: block;
+  font-style: italic;
+  color: #82662e;
+  margin-top: 10px;
+}
+.welcome-copy .lead { color: var(--navy); font-size: 1.1rem; }
+.welcome-copy > p { max-width: 500px; }
+.welcome-copy .eyebrow { font-size: .78rem; letter-spacing: .09em; }
+.welcome-copy .hero-actions { gap: 26px; margin-top: 28px; }
+.welcome-photo {
+  position: relative;
+  padding: 8px 8px 0;
+  background: #fcf9f0;
+  border: 1px solid #c5c5b5;
+  box-shadow: 0 16px 30px #1d352323;
+}
+.welcome-photo::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  width: 74px;
+  height: 74px;
+  border-top: 3px solid var(--gold);
+  border-left: 3px solid var(--gold);
+  pointer-events: none;
+}
+.welcome-photo img { width: 100%; height: 466px; object-fit: cover; object-position: 50% 48%; }
+.welcome-photo figcaption { padding: 12px 8px 13px; color: #556151; font-size: .8rem; }
+.home-assurance { background: #d9dfd3; border-bottom: 1px solid #bac7b8; }
+.assurance-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); list-style: none; padding: 25px 0; margin-block: 0; }
+.assurance-list li { padding-left: 30px; border-left: 1px solid #aebca9; }
+.assurance-list li:first-child { padding-left: 0; border-left: 0; }
+.assurance-list strong { display: block; font-family: Georgia, serif; font-size: 1.18rem; font-weight: 500; color: var(--navy); margin-bottom: 3px; }
+.assurance-list span { display: block; font-size: .85rem; line-height: 1.5; color: #485b4f; }
+.home-models { padding-block: 62px 68px; background: var(--home-paper); }
+.home-models .section-head { border-bottom: 0; padding: 0; margin-bottom: 30px; }
+.home-models .section-head h2 { font-size: clamp(1.85rem, 2.6vw, 2.45rem); }
+.home-models .section-head p:last-child { margin-top: 12px; color: var(--muted); font-size: .98rem; }
+.home-models .home-card { border: 1px solid #c9c9b8; border-top: 4px solid #637561; box-shadow: 0 8px 18px #273e2610; display: flex; flex-direction: column; }
+.home-models .home-card:hover { border-color: #91825a; box-shadow: 0 8px 18px #273e261b; }
+.home-models .card-photo.plan-preview { padding: 19px 19px 0; background: #e8ecdf; border-bottom: 1px solid #c9d0bd; }
+.home-models .card-photo img { height: 217px; padding: 12px; background: #fff; border: 1px solid #d8dccf; object-position: 50% 50%; }
+.home-models .plan-label { margin-top: 0; padding-block: 12px; border: 0; color: #485b4f; font-size: .75rem; letter-spacing: .045em; }
+.home-models .card-copy { padding: 23px 24px 20px; border-bottom: 0; background: #fffdf7; flex: 1; }
+.home-models .model-type { font-size: .82rem; margin-bottom: 8px; }
+.home-models .home-card h3 { font-size: 1.9rem; margin-bottom: 14px; }
+.home-models .card-specs { padding-bottom: 20px; margin-bottom: 0; font-size: .98rem; color: var(--navy); }
+.home-models .card-bottom { padding-top: 14px; border-color: #d9d9ca; }
+.home-models .viewing { font-size: .82rem; }
+.home-story { background: var(--home-sage); border-block: 1px solid #bcc8b7; padding-block: 64px; }
+.story-layout { display: grid; grid-template-columns: .95fr 1.05fr; gap: 70px; align-items: center; }
+.story-photo { background: #f4f3e8; border: 1px solid #bbc4b1; padding: 8px 8px 0; box-shadow: 9px 9px 0 #bbc6b380; }
+.story-photo img { width: 100%; height: 344px; object-fit: cover; object-position: 50% 36%; }
+.story-photo figcaption { padding: 12px 8px; font-size: .8rem; color: #53604e; }
+.story-copy h2 { font-size: clamp(1.85rem, 2.6vw, 2.4rem); }
+.story-copy .eyebrow { color: #5b613a; }
+.story-invitation { border-left: 2px solid #a68b50; padding-left: 18px; color: #334d3c; }
+.story-links { display: flex; flex-wrap: wrap; gap: 16px 25px; margin-top: 25px; }
+.story-links .text-link { font-size: .9rem; }
+.home-visit { padding-block: 58px; background: var(--home-beige); }
+.visit-panel { display: grid; grid-template-columns: 1.2fr 1fr; gap: 60px; padding: 44px; background: var(--navy); color: #f2f2e8; border-top: 4px solid var(--gold); box-shadow: 0 12px 24px #293b351c; }
+.visit-copy h2 { font-size: clamp(1.9rem, 2.65vw, 2.5rem); color: #fffaf0; max-width: 530px; }
+.visit-copy .eyebrow { color: #e3ca97; font-size: .75rem; }
+.visit-copy > p:not(.eyebrow) { color: #e2e8e1; }
+.visit-copy .hero-actions { margin-top: 26px; }
+.visit-button { background: #e4cd99; color: #183849; border: 1px solid #e4cd99; }
+.visit-button:hover { background: #f4dfb3; color: #183849; }
+.visit-phone { color: #fff8e8; font-weight: 700; font-size: 1.05rem; text-decoration: none; border-bottom: 1px solid #ad9b72; }
+.visit-phone:hover, .visit-hours a:hover { color: #efd393; }
+.visit-hours { border-left: 1px solid #59706e; padding-left: 38px; }
+.visit-hours h3 { color: #eddbb4; font-size: 1.12rem; margin-bottom: 12px; }
+.visit-hours address { color: #fff; margin-bottom: 20px; font-size: .95rem; }
+.visit-hours .hours { font-size: .88rem; }
+.visit-hours .hours > div { border-color: #4a6265; gap: 14px; }
+.visit-hours > p { margin-top: 20px; font-size: .85rem; color: #d4dfd9; }
+@media (max-width: 1150px) {
+  .home-hero-layout { gap: 42px; padding-block: 48px; }
+  .welcome-photo img { height: 445px; }
+  .welcome-copy .eyebrow { font-size: .75rem; }
+  .home-models .card-copy { padding-inline: 18px; }
+  .home-models .card-specs { font-size: .91rem; }
+  .home-models .card-photo img { height: 190px; }
+  .assurance-list li { padding-left: 20px; }
+  .assurance-list span { max-width: 240px; }
+  .story-layout { gap: 45px; }
+  .visit-panel { gap: 30px; padding: 32px; }
+  .visit-hours { padding-left: 25px; }
+  .visit-hours .hours > div { flex-wrap: wrap; gap: 0 14px; }
+}
+@media (min-width: 801px) and (max-width: 980px) {
+  .home-models .card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  .home-models .card-photo.plan-preview { padding: 12px 12px 0; }
+  .home-models .card-photo img { height: 166px; padding: 7px; }
+  .home-models .card-copy { padding: 18px 14px; }
+  .home-models .card-specs { line-height: 1.9; }
+  .home-models .card-specs span { padding-inline: 0; }
+}
+@media (max-width: 800px) {
+  .home-hero-layout { grid-template-columns: 1fr; gap: 30px; padding-block: 35px 38px; }
+  .home-hero::before { inset: 57% 0 0 25%; }
+  .welcome-copy h1 { max-width: 590px; font-size: clamp(2.2rem, 5.2vw, 2.65rem); }
+  .welcome-copy > p { max-width: 620px; }
+  .welcome-photo img { height: 360px; object-position: 50% 45%; }
+  .assurance-list { padding-block: 22px; gap: 18px; }
+  .assurance-list li { padding-left: 18px; }
+  .assurance-list strong { font-size: 1rem; }
+  .assurance-list span { font-size: .8rem; }
+  .home-models { padding-block: 42px; }
+  .home-models .card-grid { grid-template-columns: 1fr; gap: 24px; }
+  .home-models .home-card { display: grid; grid-template-columns: 1fr 1fr; }
+  .home-models .card-photo.plan-preview { border-bottom: 0; border-right: 1px solid #c9d0bd; }
+  .home-models .card-photo img { height: 200px; }
+  .home-models .card-copy { display: flex; flex-direction: column; justify-content: center; }
+  .home-models .card-bottom { flex-wrap: wrap; }
+  .home-story { padding-block: 44px; }
+  .story-layout { grid-template-columns: 1fr; gap: 34px; }
+  .story-photo img { height: 310px; }
+  .story-copy h2 br { display: none; }
+  .home-visit { padding-block: 38px; }
+  .visit-panel { grid-template-columns: 1fr; gap: 30px; padding: 30px; }
+  .visit-copy h2 { max-width: 600px; }
+  .visit-hours { border-left: 0; border-top: 1px solid #59706e; padding: 26px 0 0; }
+  .visit-hours .hours { max-width: 440px; }
+  .visit-hours .hours > div { flex-wrap: nowrap; }
+}
+@media (max-width: 540px) {
+  .welcome-copy .eyebrow { max-width: 300px; line-height: 1.6; font-size: .75rem; }
+  .welcome-copy h1 { font-size: 2.2rem; }
+  .welcome-copy .lead { font-size: 1.05rem; }
+  .welcome-copy .hero-actions { gap: 23px; }
+  .welcome-photo img { height: 278px; }
+  .welcome-photo figcaption { padding: 10px 5px 11px; }
+  .assurance-list { grid-template-columns: 1fr; gap: 13px; }
+  .assurance-list li, .assurance-list li:first-child { border-left: 2px solid #81947a; padding-left: 16px; }
+  .assurance-list strong { font-size: 1.03rem; margin-bottom: 2px; }
+  .assurance-list span { max-width: none; font-size: .81rem; }
+  .home-models .section-head { gap: 18px; }
+  .home-models .home-card { display: flex; }
+  .home-models .card-photo.plan-preview { border-bottom: 1px solid #c9d0bd; border-right: 0; }
+  .home-models .card-photo img { height: 220px; }
+  .home-models .card-copy { padding: 23px 22px; }
+  .home-models .card-specs { font-size: 1rem; }
+  .home-models .card-bottom { flex-wrap: nowrap; }
+  .story-photo img { height: 265px; }
+  .story-copy h2 { font-size: 2rem; }
+  .visit-panel { padding: 28px 23px; }
+  .visit-copy h2 { font-size: 1.95rem; }
+  .visit-copy .eyebrow { line-height: 1.6; }
+  .visit-hours .hours > div { flex-wrap: wrap; }
+  .visit-copy .hero-actions { align-items: start; flex-direction: column; gap: 19px; }
+}
+@media (max-width: 370px) {
+  .welcome-copy h1 { font-size: 2rem; }
+  .welcome-copy .hero-actions { gap: 18px; }
+  .welcome-photo img { height: 245px; }
+  .home-models .card-copy { padding-inline: 18px; }
+  .home-models .card-bottom { flex-wrap: wrap; }
+  .home-models .card-specs { font-size: .95rem; }
+  .visit-panel { padding-inline: 20px; }
+}
+@media print {
+  .home-hero::before, .welcome-photo::before, .home-assurance { display: none; }
+  .home-hero, .home-models, .home-story, .home-visit, .visit-panel { background: white; }
+  .home-hero-layout, .story-layout, .visit-panel { padding: 20px 0; }
+  .visit-panel, .visit-copy h2, .visit-copy > p, .visit-hours h3, .visit-hours address, .visit-hours > p { color: #183849; }
+}

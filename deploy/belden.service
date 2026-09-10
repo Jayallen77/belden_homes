@@ -1,0 +1,24 @@
+[Unit]
+Description=Belden Homes website and inquiry handler
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=belden
+Group=belden
+WorkingDirectory=/var/www/belden
+EnvironmentFile=/etc/belden.env
+ExecStart=/usr/bin/node server/index.mjs
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+StateDirectory=belden
+ReadWritePaths=/var/lib/belden
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target
