@@ -10,7 +10,8 @@ test('IP-authenticated relay uses STARTTLS, an explicit sender, and no auth cred
     SMTP_HOST:'smtp-relay.gmail.com',
     SMTP_PORT:'587',
     SMTP_FROM:'inquiries@beldenhomesinc.com',
-    SMTP_HELO_NAME:'srv1356130.hstgr.cloud'
+    SMTP_HELO_NAME:'srv1356130.hstgr.cloud',
+    SMTP_LOCAL_ADDRESS:'187.77.11.209'
   };
   const smtp=resolveSmtpConfiguration(env);
   assert.equal(smtp.mode,'relay');
@@ -20,6 +21,7 @@ test('IP-authenticated relay uses STARTTLS, an explicit sender, and no auth cred
     host:'smtp-relay.gmail.com',
     port:587,
     name:'srv1356130.hstgr.cloud',
+    localAddress:'187.77.11.209',
     secure:false,
     requireTLS:true,
     connectionTimeout:10000,
@@ -30,6 +32,11 @@ test('IP-authenticated relay uses STARTTLS, an explicit sender, and no auth cred
   });
   assert.equal('auth' in smtp.transportOptions,false);
   assert.doesNotThrow(()=>assertProductionConfiguration(env,smtp));
+});
+
+test('relay rejects an invalid SMTP local address',()=>{
+  const env={SMTP_RELAY:'true',SMTP_FROM:'inquiries@beldenhomesinc.com',SMTP_LOCAL_ADDRESS:'not-an-ip'};
+  assert.throws(()=>resolveSmtpConfiguration(env),/SMTP_LOCAL_ADDRESS/);
 });
 
 test('authenticated SMTP remains supported and requires complete credentials',()=>{

@@ -1,3 +1,5 @@
+import {isIP} from 'node:net';
+
 function portFrom(env,relay){
   const fallback=relay?587:465;
   const port=Number(env.SMTP_PORT||fallback);
@@ -12,11 +14,14 @@ export function resolveSmtpConfiguration(env=process.env){
   const sender=(env.SMTP_FROM||user||'').trim();
   const port=portFrom(env,relay);
   const heloName=env.SMTP_HELO_NAME?.trim();
+  const localAddress=env.SMTP_LOCAL_ADDRESS?.trim();
   if(heloName&&!/^(?=.{1,253}$)[A-Za-z0-9](?:[A-Za-z0-9.-]*[A-Za-z0-9])?$/.test(heloName))throw new Error('SMTP_HELO_NAME must be a valid hostname.');
+  if(localAddress&&!isIP(localAddress))throw new Error('SMTP_LOCAL_ADDRESS must be a valid IPv4 or IPv6 address.');
   const transportOptions={
     host:(env.SMTP_HOST||(relay?'smtp-relay.gmail.com':'smtp.gmail.com')).trim(),
     port,
     ...(heloName?{name:heloName}:{}),
+    ...(localAddress?{localAddress}:{}),
     secure:port===465,
     requireTLS:true,
     connectionTimeout:10000,
