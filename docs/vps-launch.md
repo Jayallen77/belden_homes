@@ -8,15 +8,15 @@ Use Node.js 22 or newer. Install the locked dependencies with `pnpm install --fr
 
 The build regenerates all public HTML from `data/belden-models.json`, `data/business.json`, and `scripts/render-site.mjs`. Shared hours and contact information come from one business record. `pnpm test` runs mail-handler tests using an in-memory mail transport; those tests do not send email.
 
-## Gmail delivery
+## Google Workspace SMTP delivery
 
-Copy `.env.example` into a protected server environment file, such as `/etc/belden.env`, readable only by the service administrator. Set `SMTP_USER` to the real Google Workspace mailbox used to send and `SMTP_PASS` to its app password. If inquiries@ is an alias, authenticate with the actual mailbox account; the destination is still fixed to inquiries@beldenhomesinc.com in the handler. Gmail app passwords require two-step verification and may be restricted by Workspace policy. See https://support.google.com/accounts/answer/185833 and https://nodemailer.com/usage/using-gmail/.
+Copy `.env.example` into a protected server environment file, such as `/etc/belden.env`, readable only by the service administrator. For an IP-authorized Google Workspace SMTP relay, set `SMTP_RELAY=true`, `SMTP_HOST=smtp-relay.gmail.com`, `SMTP_PORT=587`, and `SMTP_FROM=inquiries@beldenhomesinc.com`. Relay mode deliberately omits SMTP username/password authentication and requires STARTTLS. Google Workspace must authorize the VPS public IP and permit the envelope sender/domain.
 
-The default connection is smtp.gmail.com with implicit TLS on port 465. Port 587 with STARTTLS is also supported. The VPS must allow outbound access to the selected SMTP port. Do not use a normal Google account password. Do not put credentials in client code, Git, or this document.
+Authenticated SMTP remains available for compatibility: set `SMTP_RELAY=false`, provide `SMTP_USER` and `SMTP_PASS`, and optionally set `SMTP_FROM` (it defaults to `SMTP_USER`). The authenticated defaults are `smtp.gmail.com` with implicit TLS on port 465. Do not put credentials in client code, Git, or this document.
 
-Set `PUBLIC_ORIGIN` to the exact canonical HTTPS origin. The production server refuses to start without the SMTP credentials and HTTPS origin. A successful SMTP authentication check is not evidence of inbox receipt.
+Set `PUBLIC_ORIGIN` to the exact canonical HTTPS origin. Production relay mode requires an explicit `SMTP_FROM` and HTTPS origin; authenticated mode requires `SMTP_USER`, `SMTP_PASS`, and HTTPS origin.
 
-To verify the configuration without sending mail, load the same environment securely and run `node server/verify-smtp.mjs`. After deployment and owner authorization, submit one clearly identified inquiry and check receipt in the destination inbox, including spam and Reply-To. Only then mark live delivery verified.
+To verify the connection without sending mail, load the same environment securely and run `node server/verify-smtp.mjs`. In relay mode this verifies the SMTP connection and TLS handshake but does not prove that Google will accept the configured sender or recipient; that requires an authorized end-to-end message later. After owner authorization, submit one clearly identified inquiry and check receipt in the destination inbox, including spam and Reply-To. Only then mark live delivery verified.
 
 ## Service and HTTPS
 

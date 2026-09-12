@@ -1,4 +1,15 @@
 import nodemailer from 'nodemailer';
-if(!process.env.SMTP_USER||!process.env.SMTP_PASS)throw new Error('Set SMTP_USER and SMTP_PASS securely on the server first.');
-const mail=nodemailer.createTransport({host:process.env.SMTP_HOST||'smtp.gmail.com',port:Number(process.env.SMTP_PORT||465),secure:process.env.SMTP_PORT!=='587',requireTLS:true,auth:{user:process.env.SMTP_USER,pass:process.env.SMTP_PASS},connectionTimeout:10000,socketTimeout:20000});
-try{await mail.verify();console.log('SMTP connection and authentication succeeded. This check does not send an email or confirm inbox delivery.');}finally{mail.close();}
+import {resolveSmtpConfiguration} from './smtp.mjs';
+
+const smtp=resolveSmtpConfiguration(process.env);
+if(!smtp.enabled){
+  const requirement=smtp.mode==='relay'?'Set SMTP_RELAY=true and SMTP_FROM securely on the server first.':'Set SMTP_USER and SMTP_PASS securely on the server first.';
+  throw new Error(requirement);
+}
+const mail=nodemailer.createTransport(smtp.transportOptions);
+try{
+  await mail.verify();
+  console.log(`SMTP ${smtp.mode} connection and TLS handshake succeeded. This check does not send an email or confirm inbox delivery.`);
+}finally{
+  mail.close();
+}

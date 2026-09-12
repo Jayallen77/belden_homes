@@ -5,15 +5,15 @@ import {fileURLToPath} from 'node:url';
 import {dirname,join,resolve,extname,sep} from 'node:path';
 import nodemailer from 'nodemailer';
 import {createInquiryHandler} from './inquiry.mjs';
+import {resolveSmtpConfiguration,assertProductionConfiguration} from './smtp.mjs';
 const root=dirname(dirname(fileURLToPath(import.meta.url)));
 const publicDir=resolve(root,'dist/client');
 const port=Number(process.env.PORT||3000);
 const origin=process.env.PUBLIC_ORIGIN||`http://localhost:${port}`;
-const smtpUser=process.env.SMTP_USER;
-const smtpPass=process.env.SMTP_PASS;
-if(process.env.NODE_ENV==='production'&&(!smtpUser||!smtpPass||!process.env.PUBLIC_ORIGIN?.startsWith('https://')))throw new Error('Set PUBLIC_ORIGIN (HTTPS), SMTP_USER, and SMTP_PASS before starting production.');
-const transport=smtpUser&&smtpPass?nodemailer.createTransport({host:process.env.SMTP_HOST||'smtp.gmail.com',port:Number(process.env.SMTP_PORT||465),secure:process.env.SMTP_PORT!=='587',requireTLS:true,auth:{user:smtpUser,pass:smtpPass},connectionTimeout:10000,greetingTimeout:10000,socketTimeout:20000,disableFileAccess:true,disableUrlAccess:true}):null;
-const inquiry=createInquiryHandler({transport,sender:smtpUser,journalDir:resolve(process.env.INQUIRY_JOURNAL_DIR||join(root,'.runtime/inquiries')),allowedOrigin:origin,trustProxy:process.env.TRUST_PROXY==='true'});
+const smtp=resolveSmtpConfiguration(process.env);
+assertProductionConfiguration(process.env,smtp);
+const transport=smtp.enabled?nodemailer.createTransport(smtp.transportOptions):null;
+const inquiry=createInquiryHandler({transport,sender:smtp.sender,journalDir:resolve(process.env.INQUIRY_JOURNAL_DIR||join(root,'.runtime/inquiries')),allowedOrigin:origin,trustProxy:process.env.TRUST_PROXY==='true'});
 const redirects={
  '/homes/belden-62412-elite-10-28603h.html':'/homes/shifty.html',
  '/homes/belden-62472-mu-cephei-28683a.html':'/homes/ramsey.html',

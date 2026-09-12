@@ -36,7 +36,7 @@ The current owner instruction makes the new spreadsheet and local assets authori
 
 ## Email and hosting
 
-Configure the actual Gmail/Google Workspace sending mailbox on the VPS, verify SMTP authentication, then complete an authorized real inquiry and confirm inbox receipt. The destination is `inquiries@beldenhomesinc.com`; a mailto label alone is not used for form delivery. See the VPS deployment guide for the service, proxy, and credential setup.
+Configure the Google Workspace IP-authenticated SMTP relay on the VPS, verify its TLS handshake, then complete an authorized real inquiry and confirm inbox receipt. The FROM and fixed destination are `inquiries@beldenhomesinc.com`; a mailto label alone is not used for form delivery. See the VPS deployment guide for the service, proxy, and relay setup.
 
 ## Follow-up visual polish
 
