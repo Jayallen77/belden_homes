@@ -3,6 +3,11 @@ import {mkdir,readFile,writeFile} from 'node:fs/promises';
 import {join} from 'node:path';
 
 export const DESTINATION='inquiries@beldenhomesinc.com';
+export function smtpErrorDetails(error){
+ const details={};
+ for(const key of ['code','responseCode','command','response','messageId'])if(error?.[key]!=null)details[key]=error[key];
+ return details;
+}
 const modelNames=new Set(['','Greater Ops','Shifty','Super Bee','Ramsey','Bungalow','Camp','Hogancamp','Office','Modular options']);
 export function validateInquiry(data){
  if(!data||typeof data!=='object'||Array.isArray(data))return {error:'Please complete the inquiry form.'};
@@ -49,7 +54,7 @@ export function createInquiryHandler({transport,sender,journalDir,allowedOrigin,
    if(!sent.accepted?.some(address=>String(address).toLowerCase()===DESTINATION))throw new Error('Recipient not accepted');
    await writeFile(file,JSON.stringify({hash,status:'accepted',at:new Date().toISOString()}),{mode:0o600});
    return json(200,{ok:true});
-  }catch(error){console.error('Inquiry delivery could not be confirmed:',error.code||'DELIVERY_ERROR');return json(502,{ok:false,message:'We could not confirm delivery. Please call 607-693-1364 or email inquiries@beldenhomesinc.com before resending. Your entries have been kept.'});}
+  }catch(error){console.error('Inquiry SMTP failure:',JSON.stringify(smtpErrorDetails(error)));return json(502,{ok:false,message:'We could not confirm delivery. Please call 607-693-1364 or email inquiries@beldenhomesinc.com before resending. Your entries have been kept.'});}
   finally{active.delete(id);}
  };
 }
