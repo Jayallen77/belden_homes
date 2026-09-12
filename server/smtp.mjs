@@ -11,9 +11,12 @@ export function resolveSmtpConfiguration(env=process.env){
   const pass=env.SMTP_PASS;
   const sender=(env.SMTP_FROM||user||'').trim();
   const port=portFrom(env,relay);
+  const heloName=env.SMTP_HELO_NAME?.trim();
+  if(heloName&&!/^(?=.{1,253}$)[A-Za-z0-9](?:[A-Za-z0-9.-]*[A-Za-z0-9])?$/.test(heloName))throw new Error('SMTP_HELO_NAME must be a valid hostname.');
   const transportOptions={
     host:(env.SMTP_HOST||(relay?'smtp-relay.gmail.com':'smtp.gmail.com')).trim(),
     port,
+    ...(heloName?{name:heloName}:{}),
     secure:port===465,
     requireTLS:true,
     connectionTimeout:10000,

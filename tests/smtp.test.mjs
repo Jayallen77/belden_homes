@@ -9,7 +9,8 @@ test('IP-authenticated relay uses STARTTLS, an explicit sender, and no auth cred
     SMTP_RELAY:'true',
     SMTP_HOST:'smtp-relay.gmail.com',
     SMTP_PORT:'587',
-    SMTP_FROM:'inquiries@beldenhomesinc.com'
+    SMTP_FROM:'inquiries@beldenhomesinc.com',
+    SMTP_HELO_NAME:'srv1356130.hstgr.cloud'
   };
   const smtp=resolveSmtpConfiguration(env);
   assert.equal(smtp.mode,'relay');
@@ -18,6 +19,7 @@ test('IP-authenticated relay uses STARTTLS, an explicit sender, and no auth cred
   assert.deepEqual(smtp.transportOptions,{
     host:'smtp-relay.gmail.com',
     port:587,
+    name:'srv1356130.hstgr.cloud',
     secure:false,
     requireTLS:true,
     connectionTimeout:10000,

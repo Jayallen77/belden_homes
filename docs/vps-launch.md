@@ -10,7 +10,7 @@ The build regenerates all public HTML from `data/belden-models.json`, `data/busi
 
 ## Google Workspace SMTP delivery
 
-Copy `.env.example` into a protected server environment file, such as `/etc/belden.env`, readable only by the service administrator. For an IP-authorized Google Workspace SMTP relay, set `SMTP_RELAY=true`, `SMTP_HOST=smtp-relay.gmail.com`, `SMTP_PORT=587`, and `SMTP_FROM=inquiries@beldenhomesinc.com`. Relay mode deliberately omits SMTP username/password authentication and requires STARTTLS. Google Workspace must authorize the VPS public IP and permit the envelope sender/domain.
+Copy `.env.example` into a protected server environment file, such as `/etc/belden.env`, readable only by the service administrator. For an IP-authorized Google Workspace SMTP relay, set `SMTP_RELAY=true`, `SMTP_HOST=smtp-relay.gmail.com`, `SMTP_PORT=587`, `SMTP_FROM=inquiries@beldenhomesinc.com`, and `SMTP_HELO_NAME` to the VPS's valid public hostname. Relay mode deliberately omits SMTP username/password authentication and requires STARTTLS. Google Workspace must authorize the VPS public IP and permit the envelope sender/domain.
 
 Authenticated SMTP remains available for compatibility: set `SMTP_RELAY=false`, provide `SMTP_USER` and `SMTP_PASS`, and optionally set `SMTP_FROM` (it defaults to `SMTP_USER`). The authenticated defaults are `smtp.gmail.com` with implicit TLS on port 465. Do not put credentials in client code, Git, or this document.
 
