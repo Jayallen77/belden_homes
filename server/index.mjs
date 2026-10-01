@@ -15,8 +15,8 @@ assertProductionConfiguration(process.env,smtp);
 const transport=smtp.enabled?nodemailer.createTransport(smtp.transportOptions):null;
 const inquiry=createInquiryHandler({transport,sender:smtp.sender,journalDir:resolve(process.env.INQUIRY_JOURNAL_DIR||join(root,'.runtime/inquiries')),allowedOrigin:origin,trustProxy:process.env.TRUST_PROXY==='true'});
 const redirects={
- '/homes/belden-62412-elite-10-28603h.html':'/homes/shifty.html',
- '/homes/belden-62472-mu-cephei-28683a.html':'/homes/ramsey.html',
+ '/homes/belden-62412-elite-10-28603h.html':'/homes/ramsey.html',
+ '/homes/belden-62472-mu-cephei-28683a.html':'/homes/shifty.html',
  '/homes/belden-15440-bungalow-12-24482a.html':'/homes/bungalow.html',
  '/homes/belden-62330-mustang-14602b.html':'/homes/camp.html',
  '/homes/belden-16040-charger-28523b.html':'/homes/hogancamp.html',

@@ -2,7 +2,7 @@
 export function renderHomepage({models, hours, card, image}) {
   const interior = models.find(m => m.slug === 'hogancamp').photos.find(p => p.src.endsWith('img_5217.webp'));
   const office = models.find(m => m.slug === 'office').photos[0];
-  const homes = ['shifty', 'greater-ops', 'ramsey'].map(slug => models.find(m => m.slug === slug));
+  const homes = ['ramsey', 'greater-ops', 'shifty'].map(slug => models.find(m => m.slug === slug));
   return `
 <section class="home-hero" aria-labelledby="welcome-heading">
   <div class="container home-hero-layout">

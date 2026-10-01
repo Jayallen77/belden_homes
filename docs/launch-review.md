@@ -1,16 +1,32 @@
-# Launch review — September 9, 2026
+# Launch and model review
 
-The redesigned site is implemented locally. It has not been deployed to the VPS or the public domain. The following source and delivery items prevent an unconditional launch-ready sign-off.
+The model corrections were prepared and reviewed locally on October 1, 2026. The owner approved committing and pushing them to the existing GitHub `origin/main` repository. VPS deployment remains a separate step. Earlier launch and design checks are retained below, along with the existing source and delivery notes.
 
-## Model source decisions needed
+## October 1 model corrections
+
+- Ramsey is model 28600E, 1,600 sq. ft.; Shifty is model 28683A, 1,813 sq. ft. Each home retains its specifications, photos, floorplan notes, and onsite availability. Only spreadsheet A3/A5 changed; all other workbook package entries and cell formatting were preserved.
+- Source and optimized folders now follow the corrected names. Both named model routes remain valid. The numbered legacy redirects follow the same physical homes, and the physical homepage card order is unchanged.
+- Camp has four exterior photos, led by IMG_5324, then IMG_5321, IMG_5323, and IMG_5325. The gallery explains offsite viewing and uses the existing enlargement and keyboard controls. Cards remain floorplan-led.
+- Shifty now uses its supplied straightened `FP_1.pdf`; Hogancamp uses `FP_2.pdf`. Full-size WebPs preserve the PDF raster pixels without further alterations. Previews and dimensions were regenerated, and floorplan URLs use content-based cache versions.
+- All 126 pre-existing photo derivatives and all 76 supplied source files are byte-for-byte unchanged after accounting for folder renames. The four full/preview floorplan derivatives are the only existing optimized images whose content changed.
+
+## October 1 verification
+
+- A second asset regeneration retained the corrected catalog and all 150 WebPs byte-for-byte. Exactly eight models remain: seven onsite and Camp offsite, with 67 gallery photos in total.
+- All 17 regular pages passed at 1440, 1024, 768, 390, and 320 pixels: 85 page/viewport checks with no overflow, broken local images, duplicate H1s, or first-party JavaScript/console errors. The replacement floorplans and Camp gallery were visually reviewed at desktop, tablet, and mobile sizes.
+- Corrected name/model-number pairs, homepage order, metadata, inquiry preselection, full-size floorplan links, filtering/reset/empty states, mobile navigation, Camp gallery enlargement/arrow keys/close/focus restoration, both changed legacy redirects, and the eight sitemap model routes passed browser checks.
+- Static validation passed 18 HTML pages and 576 internal references, including content-based floorplan versions. All ten inquiry-handler and SMTP-configuration regression tests passed after integrating the existing Workspace relay fixes, with simulated mail delivery; no real inquiry was sent. External applications were excluded from this model-correction browser pass.
+- Local review server: `http://localhost:3000`. Local review is complete and the owner approved GitHub `main` publication; no VPS deployment was performed in this pass.
+
+## Retained floorplan source notes
 
 | Model | Spreadsheet | Supplied floorplan evidence | Current handling |
 | --- | --- | --- | --- |
 | Greater Ops | 907 sq. ft., model 14682A | Named-folder drawing says 880 sq. ft., 66 feet, TS1021-P | Spreadsheet specifications retained. Supplied drawing explicitly labeled as a reference needing confirmation. |
-| Shifty | 1,600 sq. ft., model 28600E | PDF is a front elevation, not a floorplan. Local JPG is named ac28603h and depicts a 60-foot layout. | Actual floorplan JPG used instead of the elevation. Model/layout match needs confirmation. |
-| Ramsey | 1,813 sq. ft., model 28683A | Named-folder PDF says approximately 1,600 sq. ft., 60 feet, 3A2803 | Spreadsheet specifications retained. Supplied drawing explicitly labeled as a reference needing confirmation. |
-| Hogancamp | 1,387 sq. ft., model 28523B | Named-folder PDF says approximately 1,484 sq. ft., 56 feet | Spreadsheet specifications retained. Supplied drawing explicitly labeled as a reference needing confirmation. |
-| Camp | 800 sq. ft., 2 bedrooms, 1 bathroom, offsite | Floorplan present; no photos supplied in the local folder | Floorplan shown and offsite viewing explained. Photos still needed. |
+| Ramsey | 1,600 sq. ft., model 28600E | PDF is a front elevation, not a floorplan. Local JPG is named ac28603h and depicts a 60-foot layout. | Actual floorplan JPG used instead of the elevation. Existing model/layout reference note retained. |
+| Shifty | 1,813 sq. ft., model 28683A | Straightened FP_1.pdf still lists approximately 1,600 sq. ft., 60 feet, 3A2803 | Spreadsheet specifications retained. Existing reference note retained as requested. |
+| Hogancamp | 1,387 sq. ft., model 28523B | Straightened FP_2.pdf still lists approximately 1,484 sq. ft., 56 feet | Spreadsheet specifications retained. Existing reference note retained as requested. |
+| Camp | 800 sq. ft., 2 bedrooms, 1 bathroom, offsite | Floorplan and four supplied exterior photos | Floorplan shown with an exterior gallery; offsite viewing explained. |
 
 The current owner instruction makes the new spreadsheet and local assets authoritative over online catalog defaults. Conflicting sources have not been silently substituted or numerically reconciled. No unrelated stock home photos were used. All eight model names come from column A. Super Bee and Bungalow are also names in column B, but are retained because they are the explicitly supplied public names.
 
@@ -18,7 +34,7 @@ The current owner instruction makes the new spreadsheet and local assets authori
 
 - Eight model routes, original logo, updated company positioning, concise copy, and shared navigation/footer.
 - All requested hours and counties. No obsolete terminology in generated pages or metadata.
-- 63 locally supplied home photos converted to WebP with separate small gallery/card versions; untouched originals excluded from the public build.
+- 67 locally supplied home photos in WebP with separate small gallery versions; untouched originals excluded from the public build.
 - Local floorplans, full-size viewing links, keyboard-operated photo galleries, exact filters with empty/reset states, and mobile navigation.
 - Server-side Gmail inquiry delivery, fixed destination, validation, error/success feedback, duplicate prevention, spam controls, and production configuration checks.
 - Original Clarion application embedded without Palmer branding or tracking parameters. It remains Cavco-hosted; see the integration notes.
@@ -29,7 +45,7 @@ The current owner instruction makes the new spreadsheet and local assets authori
 
 - All 17 regular pages checked at 320, 390, 768, 1024, 1280, and 1440 pixels: 102 page/viewport checks with no horizontal overflow, broken loaded local images, missing pages, or duplicate H1s.
 - Mobile navigation, Escape behavior, filters, no-match feedback, reset, gallery navigation, model inquiry prefill, required fields, retained entries on error, and simulated success feedback verified.
-- Eighteen HTML pages including 404 and 568 internal links/assets/anchors passed the static reference check.
+- Eighteen HTML pages including 404 and 576 internal links/assets/anchors passed the current static reference check, including corrected model identities, four Camp photos, and floorplan cache versions.
 - Five server-side mail test groups passed. They cover validation, fixed recipient, duplicate prevention, missing configuration, delivery failures, cross-origin rejection, and rate limiting. No real email was sent.
 - No first-party browser JavaScript errors. The form-failure test intentionally produced a 503 while SMTP was unconfigured.
 - Original visualizer loaded with its image assets and no page errors. Desktop and mobile siding selections worked, and a blue-siding image change was verified. Its PDF action rejected the default configuration with missing shake/vertical-siding validation messages. PDF export remains unverified; external application behavior remains dependent on Cavco.

@@ -30,4 +30,8 @@ Open http://localhost:3000. Without SMTP configuration, form submissions return 
 
 Only `dist/client` is public. Source spreadsheets, raw HEIC photos, server credentials, historical records, and internal model references are excluded from the website build.
 
+Asset regeneration reads public names from spreadsheet column A and the mappings in `data/model-assets.json`. It reuses existing photo derivatives, validates new conversions before accepting them, and updates floorplans only when their pixels change. Use `--refresh-photos` when replacing an existing source photo under the same filename. Optional `photoAlts` entries supply factual descriptions for individual photos; the `exterior` photo is placed first. The page build gives floorplan images and full-size links a version based on their file contents.
+
+Ramsey is model 28600E (1,600 sq. ft.); Shifty is model 28683A (1,813 sq. ft.). Their raw folders, optimized assets, routes, and legacy redirects follow these corrected names. Camp has four exterior photos and remains available to tour offsite.
+
 See [launch review](docs/launch-review.md), [VPS deployment](docs/vps-launch.md), and [visualizer integration](docs/visualizer-integration.md). The redesign is implemented locally; unresolved source conflicts and live email verification must be completed before launch.

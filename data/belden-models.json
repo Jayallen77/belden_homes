@@ -70,84 +70,84 @@
     ]
   },
   {
-    "name": "Shifty",
-    "slug": "shifty",
+    "name": "Ramsey",
+    "slug": "ramsey",
     "modelNumber": "28600E",
     "squareFootage": 1600,
     "bedrooms": 3,
     "bathrooms": 2,
     "type": "Manufactured Double Section",
     "viewing": "onsite",
-    "floorplan": "assets/models/shifty/floorplan.webp",
+    "floorplan": "assets/models/ramsey/floorplan.webp",
     "floorplanWidth": 1141,
     "floorplanHeight": 882,
     "floorplanNote": "Please confirm this reference layout with Belden for model 28600E.",
     "photos": [
       {
-        "src": "assets/models/shifty/img_5203.webp",
+        "src": "assets/models/ramsey/img_5203.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Shifty exterior at Belden Homes"
+        "alt": "Ramsey exterior at Belden Homes"
       },
       {
-        "src": "assets/models/shifty/img_5204.webp",
+        "src": "assets/models/ramsey/img_5204.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Shifty display home interior, photo 2"
+        "alt": "Ramsey display home interior, photo 2"
       },
       {
-        "src": "assets/models/shifty/img_5205.webp",
+        "src": "assets/models/ramsey/img_5205.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Shifty display home interior, photo 3"
+        "alt": "Ramsey display home interior, photo 3"
       },
       {
-        "src": "assets/models/shifty/img_5206.webp",
+        "src": "assets/models/ramsey/img_5206.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Shifty display home interior, photo 4"
+        "alt": "Ramsey display home interior, photo 4"
       },
       {
-        "src": "assets/models/shifty/img_5207.webp",
+        "src": "assets/models/ramsey/img_5207.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Shifty display home interior, photo 5"
+        "alt": "Ramsey display home interior, photo 5"
       },
       {
-        "src": "assets/models/shifty/img_5208.webp",
+        "src": "assets/models/ramsey/img_5208.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Shifty display home interior, photo 6"
+        "alt": "Ramsey display home interior, photo 6"
       },
       {
-        "src": "assets/models/shifty/img_5209.webp",
+        "src": "assets/models/ramsey/img_5209.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Shifty display home interior, photo 7"
+        "alt": "Ramsey display home interior, photo 7"
       },
       {
-        "src": "assets/models/shifty/img_5210.webp",
+        "src": "assets/models/ramsey/img_5210.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Shifty display home interior, photo 8"
+        "alt": "Ramsey display home interior, photo 8"
       },
       {
-        "src": "assets/models/shifty/img_5211.webp",
+        "src": "assets/models/ramsey/img_5211.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Shifty display home interior, photo 9"
+        "alt": "Ramsey display home interior, photo 9"
       },
       {
-        "src": "assets/models/shifty/img_5212.webp",
+        "src": "assets/models/ramsey/img_5212.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Shifty display home interior, photo 10"
+        "alt": "Ramsey display home interior, photo 10"
       },
       {
-        "src": "assets/models/shifty/img_5213.webp",
+        "src": "assets/models/ramsey/img_5213.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Shifty display home interior, photo 11"
+        "alt": "Ramsey display home interior, photo 11"
       }
     ]
   },
@@ -234,84 +234,84 @@
     ]
   },
   {
-    "name": "Ramsey",
-    "slug": "ramsey",
+    "name": "Shifty",
+    "slug": "shifty",
     "modelNumber": "28683A",
     "squareFootage": 1813,
     "bedrooms": 3,
     "bathrooms": 2,
     "type": "Manufactured Double Section",
     "viewing": "onsite",
-    "floorplan": "assets/models/ramsey/floorplan.webp",
+    "floorplan": "assets/models/shifty/floorplan.webp",
     "floorplanWidth": 2400,
-    "floorplanHeight": 1855,
+    "floorplanHeight": 1856,
     "floorplanNote": "This supplied reference drawing lists 1,600 sq. ft. The listed home is 1,813 sq. ft.; please confirm the current layout with Belden.",
     "photos": [
       {
-        "src": "assets/models/ramsey/img_5238.webp",
+        "src": "assets/models/shifty/img_5238.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey exterior at Belden Homes"
+        "alt": "Shifty exterior at Belden Homes"
       },
       {
-        "src": "assets/models/ramsey/img_5184.webp",
+        "src": "assets/models/shifty/img_5184.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 2"
+        "alt": "Shifty display home interior, photo 2"
       },
       {
-        "src": "assets/models/ramsey/img_5185.webp",
+        "src": "assets/models/shifty/img_5185.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 3"
+        "alt": "Shifty display home interior, photo 3"
       },
       {
-        "src": "assets/models/ramsey/img_5186.webp",
+        "src": "assets/models/shifty/img_5186.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 4"
+        "alt": "Shifty display home interior, photo 4"
       },
       {
-        "src": "assets/models/ramsey/img_5187.webp",
+        "src": "assets/models/shifty/img_5187.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 5"
+        "alt": "Shifty display home interior, photo 5"
       },
       {
-        "src": "assets/models/ramsey/img_5188.webp",
+        "src": "assets/models/shifty/img_5188.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 6"
+        "alt": "Shifty display home interior, photo 6"
       },
       {
-        "src": "assets/models/ramsey/img_5189.webp",
+        "src": "assets/models/shifty/img_5189.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 7"
+        "alt": "Shifty display home interior, photo 7"
       },
       {
-        "src": "assets/models/ramsey/img_5190.webp",
+        "src": "assets/models/shifty/img_5190.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 8"
+        "alt": "Shifty display home interior, photo 8"
       },
       {
-        "src": "assets/models/ramsey/img_5191.webp",
+        "src": "assets/models/shifty/img_5191.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 9"
+        "alt": "Shifty display home interior, photo 9"
       },
       {
-        "src": "assets/models/ramsey/img_5192.webp",
+        "src": "assets/models/shifty/img_5192.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 10"
+        "alt": "Shifty display home interior, photo 10"
       },
       {
-        "src": "assets/models/ramsey/img_5193.webp",
+        "src": "assets/models/shifty/img_5193.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 11"
+        "alt": "Shifty display home interior, photo 11"
       }
     ]
   },
@@ -398,7 +398,32 @@
     "floorplanWidth": 1399,
     "floorplanHeight": 787,
     "floorplanNote": "",
-    "photos": []
+    "photos": [
+      {
+        "src": "assets/models/camp/img_5324.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Camp exterior at its offsite viewing location, front and side view"
+      },
+      {
+        "src": "assets/models/camp/img_5321.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Camp exterior at its offsite viewing location, side view"
+      },
+      {
+        "src": "assets/models/camp/img_5323.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Camp exterior at its offsite viewing location, front porch"
+      },
+      {
+        "src": "assets/models/camp/img_5325.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Camp exterior at its offsite viewing location, front and opposite side view"
+      }
+    ]
   },
   {
     "name": "Hogancamp",
