@@ -87,7 +87,10 @@ for row in rows:
             save_webp(thumb, thumbnail, quality=78)
         alt = manifest[slug].get('photoAlts', {}).get(source.name)
         if not alt:
-            alt = name + (' exterior at Belden Homes' if source.name == exterior else f' display home interior, photo {i + 1}')
+            if manifest[slug].get('displayStatus') == 'previous':
+                alt = name + (' previous show model exterior' if source.name == exterior else f' previous show model interior, photo {i + 1}')
+            else:
+                alt = name + (' exterior at Belden Homes' if source.name == exterior else f' display home interior, photo {i + 1}')
         photos.append({'src': str(photo.relative_to(ROOT)), 'width': im.width, 'height': im.height, 'alt': alt})
         contact_image = im.copy()
         contact_image.thumbnail((240, 180))
@@ -115,6 +118,9 @@ for row in rows:
         preview.thumbnail((1200, 900))
         preview.save(TMP / (slug + '-floorplan.jpg'))
         save_webp(preview, preview_file, quality=88)
-    models.append({'name': name, 'slug': slug, 'modelNumber': row[4], 'squareFootage': int(row[7]), 'bedrooms': int(row[8]), 'bathrooms': int(row[9]), 'type': 'Manufactured ' + row[10], 'viewing': 'offsite' if row[11] == 'Off Site' else 'onsite', 'floorplan': str((folder / 'floorplan.webp').relative_to(ROOT)), 'floorplanWidth': im.width, 'floorplanHeight': im.height, 'floorplanNote': manifest[slug].get('note',''), 'photos': photos})
+    model = {'name': name, 'slug': slug, 'modelNumber': row[4], 'squareFootage': int(row[7]), 'bedrooms': int(row[8]), 'bathrooms': int(row[9]), 'type': 'Manufactured ' + row[10], 'viewing': manifest[slug].get('viewing', 'offsite' if row[11] == 'Off Site' else 'onsite'), 'floorplan': str((folder / 'floorplan.webp').relative_to(ROOT)), 'floorplanWidth': im.width, 'floorplanHeight': im.height, 'floorplanNote': manifest[slug].get('note',''), 'photos': photos}
+    if manifest[slug].get('displayStatus'):
+        model['displayStatus'] = manifest[slug]['displayStatus']
+    models.append(model)
 (ROOT / 'data/belden-models.json').write_text(json.dumps(models, indent=2) + '\n')
 print('Prepared', len(models), 'models;', sum(len(m['photos']) for m in models), 'photos')

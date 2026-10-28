@@ -1,17 +1,41 @@
-/* The full-collection link sits alongside the eight featured home cards. */
-.catalog .home-card {
+/* Current and previous display homes share cards; the catalog link stays separate. */
+.catalog .home-card,
+.previous-models .home-card {
   display: flex;
   flex-direction: column;
 }
 
-.catalog .home-card .card-copy {
+.catalog .home-card .card-copy,
+.previous-models .home-card .card-copy {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
 
-.catalog .home-card .card-bottom {
+.catalog .home-card .card-bottom,
+.previous-models .home-card .card-bottom {
   margin-top: auto;
+}
+
+.catalog-heading h2 {
+  margin: 0;
+}
+
+.previous-models {
+  border-top: 1px solid #cbd0c6;
+}
+
+.previous-models .section-head {
+  margin-bottom: 18px;
+}
+
+.previous-models-intro {
+  max-width: 760px;
+  margin-bottom: 28px;
+}
+
+.previous-models .viewing::before {
+  background: #aa8c4f;
 }
 
 .catalog-collection-card {

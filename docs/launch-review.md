@@ -2,6 +2,15 @@
 
 The model corrections were prepared and reviewed locally on October 1, 2026. The owner approved committing and pushing them to the existing GitHub `origin/main` repository. VPS deployment remains a separate step. Earlier launch and design checks are retained below, along with the existing source and delivery notes.
 
+## October 28 gallery and display-status correction — reviewed
+
+- The owner confirmed that only the Ramsey/Shifty galleries were swapped. Ramsey now uses IMG_5238 and IMG_5184–5193; Shifty uses IMG_5203–5213. Their public names, specifications, floorplans, discrepancy notes, and routes are unchanged.
+- Only the Photos source files and full-size/thumbnail photo derivatives were exchanged. All image bytes and source drawings are preserved. The source workbook is unchanged.
+- Inventory has seven current models, the existing full Cavco collection card, and Ramsey in a separate Previous show models section below. Previous-model viewing is contact-to-confirm; no sold status or current tour location is assumed.
+- Current-model filters exclude the previous section. The homepage features current models only, and shared tour copy reflects six onsite homes plus Camp offsite. The manifest stores Ramsey's later owner-confirmed display/viewing overrides so regeneration retains them.
+- Validation: 85 page/viewport checks, gallery/keyboard/inquiry-preselection checks at five widths, 18 HTML pages and 580 internal references, ten inquiry/SMTP tests. No first-party browser errors, broken local images, or horizontal overflow. A second regeneration preserved all catalog data and 150 WebPs byte-for-byte; all 16 full-size/preview floorplan images retain their original hashes.
+- The owner approved GitHub main publication after local review. VPS deployment remains a separate step.
+
 ## October 1 model corrections
 
 - Ramsey is model 28600E, 1,600 sq. ft.; Shifty is model 28683A, 1,813 sq. ft. Each home retains its specifications, photos, floorplan notes, and onsite availability. Only spreadsheet A3/A5 changed; all other workbook package entries and cell formatting were preserved.

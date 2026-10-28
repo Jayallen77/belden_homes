@@ -2,7 +2,9 @@
 export function renderHomepage({models, hours, card, image}) {
   const interior = models.find(m => m.slug === 'hogancamp').photos.find(p => p.src.endsWith('img_5217.webp'));
   const office = models.find(m => m.slug === 'office').photos[0];
-  const homes = ['ramsey', 'greater-ops', 'shifty'].map(slug => models.find(m => m.slug === slug));
+  const currentModels = models.filter(m => m.displayStatus !== 'previous');
+  const onsiteCount = currentModels.filter(m => m.viewing === 'onsite').length;
+  const homes = ['super-bee', 'greater-ops', 'shifty'].map(slug => currentModels.find(m => m.slug === slug));
   return `
 <section class="home-hero" aria-labelledby="welcome-heading">
   <div class="container home-hero-layout">
@@ -25,7 +27,7 @@ export function renderHomepage({models, hours, card, image}) {
 <div class="home-assurance">
   <ul class="container assurance-list" aria-label="A few things to know about Belden">
     <li><strong>More than 50 years</strong><span>Of experience serving local homeowners</span></li>
-    <li><strong>Seven homes to tour</strong><span>At our Harpursville sales center</span></li>
+    <li><strong>${onsiteCount} homes to tour</strong><span>At our Harpursville sales center</span></li>
     <li><strong>Home &amp; site experience</strong><span>Help with selection, delivery, and setup</span></li>
   </ul>
 </div>
@@ -33,7 +35,7 @@ export function renderHomepage({models, hours, card, image}) {
   <div class="container">
     <div class="section-head">
       <div><p class="eyebrow">Homes &amp; floorplans</p><h2 id="home-models-heading">Find a layout that fits.</h2><p>Compare the space, then see it in person.</p></div>
-      <a class="text-link" href="inventory.html">View all 8 models <span aria-hidden="true">→</span></a>
+      <a class="text-link" href="inventory.html#current-models">View all ${currentModels.length} current models <span aria-hidden="true">→</span></a>
     </div>
     <div class="card-grid">${homes.map(m => card(m)).join('')}</div>
   </div>
@@ -56,7 +58,7 @@ export function renderHomepage({models, hours, card, image}) {
     <div class="visit-copy">
       <p class="eyebrow">You’re welcome at Belden Homes</p>
       <h2 id="home-visit-heading">Come walk through our homes in Harpursville.</h2>
-      <p>Take your time in the homes, compare the rooms, and talk with us about your plans. Seven models are available onsite; call to arrange an offsite tour of Camp.</p>
+      <p>Take your time in the homes, compare the rooms, and talk with us about your plans. ${onsiteCount} models are available onsite; call to arrange an offsite tour of Camp.</p>
       <div class="hero-actions"><a class="btn visit-button" href="contact.html#directions">Plan your visit</a><a class="visit-phone" href="tel:16076931364">607-693-1364</a></div>
     </div>
     <div class="visit-hours"><h3>Stop by our sales center</h3><address>1951 NY-7<br>Harpursville, NY 13787</address>${hours}<p>For an after-hours appointment, call or text Dave at <a href="tel:16077608403">607-760-8403</a>.</p></div>

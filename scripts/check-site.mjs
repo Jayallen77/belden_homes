@@ -7,7 +7,24 @@ const models=JSON.parse(await readFile('data/belden-models.json','utf8'));
 assert.equal(models.length,8);assert.equal(new Set(models.map(m=>m.slug)).size,8);
 const expected=['Bungalow','Camp','Greater Ops','Hogancamp','Office','Ramsey','Shifty','Super Bee'];
 assert.deepEqual(models.map(m=>m.name).sort(),expected);
-assert.equal(models.filter(m=>m.viewing==='onsite').length,7);assert.equal(models.find(m=>m.viewing==='offsite').name,'Camp');
+assert.equal(models.filter(m=>m.viewing==='onsite').length,6);assert.equal(models.find(m=>m.viewing==='offsite').name,'Camp');
+const current=models.filter(m=>m.displayStatus!=='previous');
+const previous=models.filter(m=>m.displayStatus==='previous');
+assert.equal(current.length,7);
+assert.deepEqual(previous.map(m=>m.name),['Ramsey']);
+assert.equal(previous[0].viewing,'contact');
+const filenames=m=>m.photos.map(p=>p.src.split('/').pop());
+assert.deepEqual(filenames(models.find(m=>m.slug==='ramsey')),['img_5238.webp',...Array.from({length:10},(_,i)=>`img_${5184+i}.webp`)]);
+assert.deepEqual(filenames(models.find(m=>m.slug==='shifty')),Array.from({length:11},(_,i)=>`img_${5203+i}.webp`));
+const catalog=await readFile(join(root,'inventory.html'),'utf8');
+const currentSection=catalog.match(/<section\b[^>]*id="current-models"[^>]*>([\s\S]*?)<\/section>/)?.[1];
+const previousSection=catalog.match(/<section\b[^>]*id="previous-show-models"[^>]*>([\s\S]*?)<\/section>/)?.[1];
+assert.ok(currentSection&&previousSection,'both catalog sections must exist');
+assert.ok(!currentSection.includes('href="homes/ramsey.html"'));
+for(const model of current)assert.ok(currentSection.includes(`href="homes/${model.slug}.html"`));
+assert.ok(previousSection.includes('href="homes/ramsey.html"')&&previousSection.includes('Previous show model'));
+assert.equal((currentSection.match(/class="home-card"/g)||[]).length,7);
+assert.equal((previousSection.match(/class="home-card"/g)||[]).length,1);
 for(const [slug,number,area] of [['ramsey','28600E',1600],['shifty','28683A',1813]]){
  const model=models.find(m=>m.slug===slug);
  assert.equal(model.modelNumber,number,`${slug}: wrong physical home`);
@@ -33,4 +50,4 @@ for(const file of htmlFiles){const content=await readFile(join(root,file),'utf8'
 }
 assert.ok(!(await readdir(join(root,'assets'))).includes('MODEL PHOTOS'),'raw assets must not be public');
 assert.ok(!(await readdir(root)).includes('data'),'source data must not be public');
-assert.deepEqual(failures,[]);console.log(`Passed: ${htmlFiles.length} HTML pages, ${links} internal references, 8 exact model routes, corrected identities, 67 photos, floorplan cache versions, hours, terminology, and source-file exclusion.`);
+assert.deepEqual(failures,[]);console.log(`Passed: ${htmlFiles.length} HTML pages, ${links} internal references, 7 current models + Ramsey under previous show models, corrected galleries, 8 exact model routes, 67 photos, floorplan cache versions, hours, terminology, and source-file exclusion.`);

@@ -77,79 +77,80 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "type": "Manufactured Double Section",
-    "viewing": "onsite",
+    "viewing": "contact",
     "floorplan": "assets/models/ramsey/floorplan.webp",
     "floorplanWidth": 1141,
     "floorplanHeight": 882,
     "floorplanNote": "Please confirm this reference layout with Belden for model 28600E.",
     "photos": [
       {
-        "src": "assets/models/ramsey/img_5203.webp",
+        "src": "assets/models/ramsey/img_5238.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey exterior at Belden Homes"
+        "alt": "Ramsey previous show model exterior"
       },
       {
-        "src": "assets/models/ramsey/img_5204.webp",
+        "src": "assets/models/ramsey/img_5184.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 2"
+        "alt": "Ramsey previous show model interior, photo 2"
       },
       {
-        "src": "assets/models/ramsey/img_5205.webp",
+        "src": "assets/models/ramsey/img_5185.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 3"
+        "alt": "Ramsey previous show model interior, photo 3"
       },
       {
-        "src": "assets/models/ramsey/img_5206.webp",
+        "src": "assets/models/ramsey/img_5186.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 4"
+        "alt": "Ramsey previous show model interior, photo 4"
       },
       {
-        "src": "assets/models/ramsey/img_5207.webp",
+        "src": "assets/models/ramsey/img_5187.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 5"
+        "alt": "Ramsey previous show model interior, photo 5"
       },
       {
-        "src": "assets/models/ramsey/img_5208.webp",
+        "src": "assets/models/ramsey/img_5188.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 6"
+        "alt": "Ramsey previous show model interior, photo 6"
       },
       {
-        "src": "assets/models/ramsey/img_5209.webp",
+        "src": "assets/models/ramsey/img_5189.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 7"
+        "alt": "Ramsey previous show model interior, photo 7"
       },
       {
-        "src": "assets/models/ramsey/img_5210.webp",
+        "src": "assets/models/ramsey/img_5190.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 8"
+        "alt": "Ramsey previous show model interior, photo 8"
       },
       {
-        "src": "assets/models/ramsey/img_5211.webp",
+        "src": "assets/models/ramsey/img_5191.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 9"
+        "alt": "Ramsey previous show model interior, photo 9"
       },
       {
-        "src": "assets/models/ramsey/img_5212.webp",
+        "src": "assets/models/ramsey/img_5192.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 10"
+        "alt": "Ramsey previous show model interior, photo 10"
       },
       {
-        "src": "assets/models/ramsey/img_5213.webp",
+        "src": "assets/models/ramsey/img_5193.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Ramsey display home interior, photo 11"
+        "alt": "Ramsey previous show model interior, photo 11"
       }
-    ]
+    ],
+    "displayStatus": "previous"
   },
   {
     "name": "Super Bee",
@@ -248,67 +249,67 @@
     "floorplanNote": "This supplied reference drawing lists 1,600 sq. ft. The listed home is 1,813 sq. ft.; please confirm the current layout with Belden.",
     "photos": [
       {
-        "src": "assets/models/shifty/img_5238.webp",
+        "src": "assets/models/shifty/img_5203.webp",
         "width": 1200,
         "height": 1600,
         "alt": "Shifty exterior at Belden Homes"
       },
       {
-        "src": "assets/models/shifty/img_5184.webp",
+        "src": "assets/models/shifty/img_5204.webp",
         "width": 1200,
         "height": 1600,
         "alt": "Shifty display home interior, photo 2"
       },
       {
-        "src": "assets/models/shifty/img_5185.webp",
+        "src": "assets/models/shifty/img_5205.webp",
         "width": 1200,
         "height": 1600,
         "alt": "Shifty display home interior, photo 3"
       },
       {
-        "src": "assets/models/shifty/img_5186.webp",
+        "src": "assets/models/shifty/img_5206.webp",
         "width": 1200,
         "height": 1600,
         "alt": "Shifty display home interior, photo 4"
       },
       {
-        "src": "assets/models/shifty/img_5187.webp",
+        "src": "assets/models/shifty/img_5207.webp",
         "width": 1200,
         "height": 1600,
         "alt": "Shifty display home interior, photo 5"
       },
       {
-        "src": "assets/models/shifty/img_5188.webp",
+        "src": "assets/models/shifty/img_5208.webp",
         "width": 1200,
         "height": 1600,
         "alt": "Shifty display home interior, photo 6"
       },
       {
-        "src": "assets/models/shifty/img_5189.webp",
+        "src": "assets/models/shifty/img_5209.webp",
         "width": 1200,
         "height": 1600,
         "alt": "Shifty display home interior, photo 7"
       },
       {
-        "src": "assets/models/shifty/img_5190.webp",
+        "src": "assets/models/shifty/img_5210.webp",
         "width": 1200,
         "height": 1600,
         "alt": "Shifty display home interior, photo 8"
       },
       {
-        "src": "assets/models/shifty/img_5191.webp",
+        "src": "assets/models/shifty/img_5211.webp",
         "width": 1200,
         "height": 1600,
         "alt": "Shifty display home interior, photo 9"
       },
       {
-        "src": "assets/models/shifty/img_5192.webp",
+        "src": "assets/models/shifty/img_5212.webp",
         "width": 1200,
         "height": 1600,
         "alt": "Shifty display home interior, photo 10"
       },
       {
-        "src": "assets/models/shifty/img_5193.webp",
+        "src": "assets/models/shifty/img_5213.webp",
         "width": 1200,
         "height": 1600,
         "alt": "Shifty display home interior, photo 11"

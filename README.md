@@ -1,6 +1,6 @@
 # Belden Homes Inc.
 
-Static HTML website with a Node.js inquiry handler for the owner's VPS. The public catalog contains eight Belden models. Original model photos and plans are preserved separately from the optimized website assets.
+Static HTML website with a Node.js inquiry handler for the owner's VPS. The public catalog contains seven current Belden models and Ramsey under Previous show models. Original model photos and plans are preserved separately from the optimized website assets.
 
 ## Work locally
 
@@ -20,7 +20,7 @@ Open http://localhost:3000. Without SMTP configuration, form submissions return 
 - `data/business.json`: contact information, hours, and counties.
 - `data/belden-models.json`: public model names and specifications.
 - `data/sources/OFFERED MODELS.xlsx`: owner-supplied source, including internal reference columns; never published.
-- `data/model-assets.json`: explicit photo/floorplan mapping and unresolved source notes.
+- `data/model-assets.json`: explicit photo/floorplan mapping, later owner-confirmed display status/viewing overrides, and unresolved source notes.
 - `assets/MODEL PHOTOS`: untouched originals.
 - `scripts/prepare-model-assets.py`: optional asset regeneration using Python, openpyxl, Pillow, macOS sips, and Poppler. The production build does not require these tools.
 - `scripts/render-site.mjs`: shared page structure and copy. Run the build after editing; generated HTML should not be edited directly.
@@ -32,6 +32,8 @@ Only `dist/client` is public. Source spreadsheets, raw HEIC photos, server crede
 
 Asset regeneration reads public names from spreadsheet column A and the mappings in `data/model-assets.json`. It reuses existing photo derivatives, validates new conversions before accepting them, and updates floorplans only when their pixels change. Use `--refresh-photos` when replacing an existing source photo under the same filename. Optional `photoAlts` entries supply factual descriptions for individual photos; the `exterior` photo is placed first. The page build gives floorplan images and full-size links a version based on their file contents.
 
-Ramsey is model 28600E (1,600 sq. ft.); Shifty is model 28683A (1,813 sq. ft.). Their raw folders, optimized assets, routes, and legacy redirects follow these corrected names. Camp has four exterior photos and remains available to tour offsite.
+Ramsey is model 28600E (1,600 sq. ft.); Shifty is model 28683A (1,813 sq. ft.). Their names, specifications, floorplans, routes, and legacy redirects remain unchanged. The owner corrected their galleries: Ramsey uses IMG_5238 and IMG_5184–5193; Shifty uses IMG_5203–5213. Only the Photos source folders and photo derivatives were exchanged; floorplans were not moved or changed. Camp has four exterior photos and remains available to tour offsite.
+
+Ramsey's manifest has `displayStatus: previous` and `viewing: contact`, overriding the historical onsite value in the source workbook during regeneration. It stays available for inquiries without promising a current tour location. Catalog filters apply only to current models. The homepage and tour counts exclude previous show models.
 
 See [launch review](docs/launch-review.md), [VPS deployment](docs/vps-launch.md), and [visualizer integration](docs/visualizer-integration.md). The redesign is implemented locally; unresolved source conflicts and live email verification must be completed before launch.
