@@ -4,7 +4,7 @@ export function renderHomepage({models, hours, card, image}) {
   const office = models.find(m => m.slug === 'office').photos[0];
   const currentModels = models.filter(m => m.displayStatus !== 'previous');
   const onsiteCount = currentModels.filter(m => m.viewing === 'onsite').length;
-  const homes = ['super-bee', 'greater-ops', 'shifty'].map(slug => currentModels.find(m => m.slug === slug));
+  const homes = ['super-bee', 'malibu', 'shifty'].map(slug => currentModels.find(m => m.slug === slug));
   return `
 <section class="home-hero" aria-labelledby="welcome-heading">
   <div class="container home-hero-layout">

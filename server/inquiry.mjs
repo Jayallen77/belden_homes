@@ -8,7 +8,7 @@ export function smtpErrorDetails(error){
  for(const key of ['code','responseCode','command','response','messageId'])if(error?.[key]!=null)details[key]=error[key];
  return details;
 }
-const modelNames=new Set(['','Greater Ops','Shifty','Super Bee','Ramsey','Bungalow','Camp','Hogancamp','Office','Modular options']);
+const modelNames=new Set(['','Greater Ops','Shifty','Super Bee','Ramsey','Bungalow','Camp','Hogancamp','Office','Malibu','Modular options']);
 export function validateInquiry(data){
  if(!data||typeof data!=='object'||Array.isArray(data))return {error:'Please complete the inquiry form.'};
  const values={};for(const key of ['name','phone','email','model','message','website','requestId']){if(data[key]!=null&&typeof data[key]!=='string')return {error:'Please check your form entries.'};values[key]=(data[key]||'').trim();}

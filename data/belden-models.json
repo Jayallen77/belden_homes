@@ -7,7 +7,7 @@
     "bedrooms": 2,
     "bathrooms": 2,
     "type": "Manufactured Single Section",
-    "viewing": "onsite",
+    "viewing": "contact",
     "floorplan": "assets/models/greater-ops/floorplan.webp",
     "floorplanWidth": 1584,
     "floorplanHeight": 1224,
@@ -17,57 +17,58 @@
         "src": "assets/models/greater-ops/img_5225.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Greater Ops exterior at Belden Homes"
+        "alt": "Greater Ops previous show model exterior"
       },
       {
         "src": "assets/models/greater-ops/img_5226.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Greater Ops display home interior, photo 2"
+        "alt": "Greater Ops previous show model interior, photo 2"
       },
       {
         "src": "assets/models/greater-ops/img_5227.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Greater Ops display home interior, photo 3"
+        "alt": "Greater Ops previous show model interior, photo 3"
       },
       {
         "src": "assets/models/greater-ops/img_5228.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Greater Ops display home interior, photo 4"
+        "alt": "Greater Ops previous show model interior, photo 4"
       },
       {
         "src": "assets/models/greater-ops/img_5229.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Greater Ops display home interior, photo 5"
+        "alt": "Greater Ops previous show model interior, photo 5"
       },
       {
         "src": "assets/models/greater-ops/img_5230.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Greater Ops display home interior, photo 6"
+        "alt": "Greater Ops previous show model interior, photo 6"
       },
       {
         "src": "assets/models/greater-ops/img_5231.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Greater Ops display home interior, photo 7"
+        "alt": "Greater Ops previous show model interior, photo 7"
       },
       {
         "src": "assets/models/greater-ops/img_5232.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Greater Ops display home interior, photo 8"
+        "alt": "Greater Ops previous show model interior, photo 8"
       },
       {
         "src": "assets/models/greater-ops/img_5233.webp",
         "width": 1200,
         "height": 1600,
-        "alt": "Greater Ops display home interior, photo 9"
+        "alt": "Greater Ops previous show model interior, photo 9"
       }
-    ]
+    ],
+    "displayStatus": "previous"
   },
   {
     "name": "Ramsey",
@@ -527,6 +528,88 @@
         "width": 1200,
         "height": 1600,
         "alt": "Office exterior at Belden Homes"
+      }
+    ]
+  },
+  {
+    "name": "Malibu",
+    "slug": "malibu",
+    "modelNumber": "14662F",
+    "squareFootage": 933,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "type": "Manufactured Single Section",
+    "viewing": "onsite",
+    "floorplan": "assets/models/malibu/floorplan.webp",
+    "floorplanWidth": 1448,
+    "floorplanHeight": 1086,
+    "floorplanNote": "",
+    "photos": [
+      {
+        "src": "assets/models/malibu/img_5682.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Malibu exterior with gray siding and dark shutters"
+      },
+      {
+        "src": "assets/models/malibu/img_5681.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Malibu exterior from across the driveway"
+      },
+      {
+        "src": "assets/models/malibu/img_5683.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Malibu living room with a ceiling fan and plank flooring"
+      },
+      {
+        "src": "assets/models/malibu/img_5684.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Malibu kitchen looking toward the dining nook"
+      },
+      {
+        "src": "assets/models/malibu/img_5685.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Malibu den with a beamed ceiling and upholstered seating"
+      },
+      {
+        "src": "assets/models/malibu/img_5686.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Malibu den looking back toward the kitchen"
+      },
+      {
+        "src": "assets/models/malibu/img_5687.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Malibu dining nook and kitchen from the den"
+      },
+      {
+        "src": "assets/models/malibu/img_5688.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Malibu bedroom with plank flooring and a window"
+      },
+      {
+        "src": "assets/models/malibu/img_5689.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Malibu bathroom with a tub, toilet, and vanity"
+      },
+      {
+        "src": "assets/models/malibu/img_5690.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Malibu carpeted bedroom with a closet"
+      },
+      {
+        "src": "assets/models/malibu/img_5691.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Malibu hallway looking into the living room"
       }
     ]
   }

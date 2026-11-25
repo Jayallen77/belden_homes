@@ -1,6 +1,6 @@
 # Belden Homes Inc.
 
-Static HTML website with a Node.js inquiry handler for the owner's VPS. The public catalog contains seven current Belden models and Ramsey under Previous show models. Original model photos and plans are preserved separately from the optimized website assets.
+Static HTML website with a Node.js inquiry handler for the owner's VPS. The public catalog contains seven current Belden models, including Malibu, with Greater Ops and Ramsey under Previous show models. Original model photos and plans are preserved separately from the optimized website assets.
 
 ## Work locally
 
@@ -34,6 +34,6 @@ Asset regeneration reads public names from spreadsheet column A and the mappings
 
 Ramsey is model 28600E (1,600 sq. ft.); Shifty is model 28683A (1,813 sq. ft.). Their names, specifications, floorplans, routes, and legacy redirects remain unchanged. The owner corrected their galleries: Ramsey uses IMG_5238 and IMG_5184–5193; Shifty uses IMG_5203–5213. Only the Photos source folders and photo derivatives were exchanged; floorplans were not moved or changed. Camp has four exterior photos and remains available to tour offsite.
 
-Ramsey's manifest has `displayStatus: previous` and `viewing: contact`, overriding the historical onsite value in the source workbook during regeneration. It stays available for inquiries without promising a current tour location. Catalog filters apply only to current models. The homepage and tour counts exclude previous show models.
+Greater Ops and Ramsey use `displayStatus: previous` and `viewing: contact`, overriding the historical onsite values in the source workbook during regeneration. Malibu is available to tour at the sales center. Catalog filters apply only to current models. The homepage and tour counts exclude previous show models.
 
 See [launch review](docs/launch-review.md), [VPS deployment](docs/vps-launch.md), and [visualizer integration](docs/visualizer-integration.md). The redesign is implemented locally; unresolved source conflicts and live email verification must be completed before launch.
